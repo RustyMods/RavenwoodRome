@@ -7,12 +7,21 @@ namespace RavenwoodRome;
 
 public static partial class Assets
 {
+    private static Dictionary<string, string> candles = new()
+    {
+        ["piece_rome_candle_1"] = "Roman Candle",
+        ["piece_rome_candle_2"] = "Roman Candle",
+        ["piece_rome_candle_3"] = "Roman Candle",
+        ["piece_rome_candle_4"] = "Roman Candle",
+        ["piece_rome_candle_5"] = "Roman Candle",
+        ["piece_rome_candle_6"] = "Roman Candle",
+    };
     public static void LoadCandles()
     {
-        for (int i = 1; i < 7; ++i)
+        foreach (var kvp in candles)
         {
-            var id = "piece_rome_candle_" + i;
-            var name = "Roman Candle";
+            var id = kvp.Key;
+            var name = kvp.Value;
             
             BuildPiece build = new BuildPiece("ravenwood_rome", id);
             var piece = build.Prefab.GetComponent<Piece>();

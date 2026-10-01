@@ -4,9 +4,7 @@ using BepInEx;
 using BepInEx.Configuration;
 using BepInEx.Logging;
 using HarmonyLib;
-using PieceManager;
 using ServerSync;
-using UnityEngine;
 
 namespace RavenwoodRome;
 
@@ -14,7 +12,7 @@ namespace RavenwoodRome;
 public class RavenwoodRomePlugin : BaseUnityPlugin
 {
     internal const string ModName = "RavenwoodRome";
-    internal const string ModVersion = "1.0.0";
+    internal const string ModVersion = "1.0.2";
     internal const string Author = "RustyMods";
     private const string ModGUID = Author + "." + ModName;
     private static readonly string ConfigFileName = ModGUID + ".cfg";
@@ -43,6 +41,8 @@ public class RavenwoodRomePlugin : BaseUnityPlugin
         _serverConfigLocked = config("1 - General", "Lock Configuration", Toggle.On,
             "If on, the configuration is locked and can be changed by server admins only.");
         _ = ConfigSync.AddLockingConfigEntry(_serverConfigLocked);
+
+        ReadMeBuilder.buildReadme = true;
         
         Assets.LoadBuildings();
         Assets.LoadSculptures();

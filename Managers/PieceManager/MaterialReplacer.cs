@@ -13,7 +13,7 @@ namespace PieceManager
         private static readonly Dictionary<GameObject, bool> ObjectToSwap;
         private static readonly Dictionary<string, Material> OriginalMaterials;
         private static readonly Dictionary<GameObject, ShaderType> ObjectsForShaderReplace;
-        private static readonly HashSet<Shader> CachedShaders = new();
+        private static readonly HashSet<Shader> CachedShaders = [];
         private static bool hasRun = false;
         public static List<MaterialData> materialsToSet = [];
 

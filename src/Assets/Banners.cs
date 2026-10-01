@@ -6,12 +6,24 @@ namespace RavenwoodRome;
 
 public static partial class Assets
 {
+    private static Dictionary<string, string> banners = new()
+    {
+        ["piece_banner_rome_1"] = "Roman Banner",
+        ["piece_banner_rome_2"] = "Roman Banner",
+        ["piece_banner_rome_3"] = "Roman Banner",
+        ["piece_banner_rome_4"] = "Roman Banner",
+        ["piece_banner_rome_5"] = "Roman Banner",
+        ["piece_banner_rome_6"] = "Roman Banner",
+    };
     public static void LoadBanners()
     {
-        for (int i = 1; i < 7; ++i)
+        bool loadedMat = false;
+        
+        foreach (var kvp in banners)
         {
-            var id = "piece_banner_rome_" + i;
-            var name = "Roman Banner";
+            var id = kvp.Key;
+            var name = kvp.Value;
+            
             BuildPiece build = new BuildPiece("ravenwood_rome", id);
             var piece = build.Prefab.GetComponent<Piece>();
             var wnt = build.Prefab.GetComponent<WearNTear>();
@@ -25,7 +37,7 @@ public static partial class Assets
             build.Crafting.Set(CraftingTable.Workbench);
             build.Snapshot();
 
-            if (i == 1)
+            if (!loadedMat)
             {
                 var meshRenderer = build.Prefab.GetComponentInChildren<MeshRenderer>();
                 var materials = meshRenderer.sharedMaterials;
@@ -34,6 +46,7 @@ public static partial class Assets
                 
                 var metalDat = new MaterialData(metalMat, MaterialReplacer.ShaderType.RockShader);
                 var bannerDat = new MaterialData(bannerMat, MaterialReplacer.ShaderType.VegetationShader);
+                loadedMat = true;
             }
         }
     }

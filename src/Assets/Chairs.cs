@@ -1,15 +1,21 @@
+using System.Collections.Generic;
 using PieceManager;
 
 namespace RavenwoodRome;
 
 public static partial class Assets
 {
+    private static Dictionary<string, string> chairs = new()
+    {
+        ["piece_rome_chair_1"] = "Roman Chair",
+        ["piece_rome_chair_2"] = "Roman Chair",
+    };
     public static void LoadChairs()
     {
-        for (int i = 1; i < 3; ++i)
+        foreach (var kvp in chairs)
         {
-            var id = "piece_rome_chair_" + 1;
-            var name = "Roman Chair";
+            var id = kvp.Key;
+            var name = kvp.Value;
             BuildPiece build = new BuildPiece("ravenwood_rome", id);
             var piece = build.Prefab.GetComponent<Piece>();
             var wnt = build.Prefab.GetComponent<WearNTear>();

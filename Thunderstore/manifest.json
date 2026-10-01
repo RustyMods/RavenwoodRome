@@ -1,7 +1,7 @@
 {
   "name": "RavenwoodRome",
-  "version_number": "1.0.0",
-  "website_url": "",
+  "version_number": "1.0.2",
+  "website_url": "https://github.com/RustyMods/RavenwoodRome",
   "description": "Rome pieces",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.2202"

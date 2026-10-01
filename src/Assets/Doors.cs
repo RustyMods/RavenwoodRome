@@ -7,14 +7,21 @@ namespace RavenwoodRome;
 
 public static partial class Assets
 {
+    private static Dictionary<string, string> doorObjs = new()
+    {
+        ["piece_rome_door_1"] = "Roman Door",
+        ["piece_rome_door_2"] = "Roman Door",
+        ["piece_rome_door_3"] = "Roman Door",
+        ["piece_rome_door_4"] = "Roman Door",
+    };
     private static List<GameObject> doors = [];
 
     public static void LoadDoors()
     {
-        for (int i = 1; i < 5; ++i)
+        foreach (var kvp in doorObjs)
         {
-            var id = "piece_rome_door_" + i;
-            var name = "Roman Door";
+            var id = kvp.Key;
+            var name =  kvp.Value;
             BuildPiece build = new BuildPiece("ravenwood_rome", id);
             var piece = build.Prefab.GetComponent<Piece>();
             var wnt = build.Prefab.GetComponent<WearNTear>();

@@ -147,6 +147,8 @@
         <Compile Include="src\Assets\Statues.cs" />
         <Compile Include="src\EffectRef.cs" />
         <Compile Include="src\Extensions.cs" />
+        <Compile Include="src\IconExport.cs" />
+        <Compile Include="src\ReadMeBuilder.cs" />
         <Compile Include="VersionHandshake.cs"/>
     </ItemGroup>
     <ItemGroup>
@@ -167,8 +169,10 @@
         </Content>
         <Content Include="README.md"/>
         <Content Include="Thunderstore\CHANGELOG.md"/>
+        <Content Include="Thunderstore\icon.png" />
         <Content Include="Thunderstore\manifest.json"/>
         <EmbeddedResource Include="translations\English.yml"/>
+        <Content Include="Thunderstore\RavenwoodRome.dll" />
         <Content Include="UpdateManifest.ps1"/>
     </ItemGroup>
     <ItemGroup>
@@ -177,6 +181,9 @@
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
         <PackageReference Include="YamlDotNet" Version="16.3.0"/>
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Icons\" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

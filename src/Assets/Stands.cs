@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using PieceManager;
+using UnityEngine;
 
 namespace RavenwoodRome;
 
@@ -33,7 +34,13 @@ public static partial class Assets
             build.RequiredItems.Add("FineWood", 10, true);
             build.Crafting.Set(CraftingTable.Workbench);
             build.Snapshot();
-            MaterialReplacer.RegisterGameObjectForShaderSwap(build.Prefab, MaterialReplacer.ShaderType.PieceShader);
+
+            var meshRenderer = build.Prefab.GetComponentInChildren<MeshRenderer>();
+            var planks = meshRenderer.sharedMaterials[0];
+            var cloth = meshRenderer.sharedMaterials[1];
+
+            var plankData = new MaterialData(planks, MaterialReplacer.ShaderType.PieceShader);
+            var clothData = new MaterialData(cloth, MaterialReplacer.ShaderType.TwoSided);
         }
     }
 }

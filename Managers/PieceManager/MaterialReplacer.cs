@@ -36,7 +36,8 @@ namespace PieceManager
             RugShader,
             GrassShader,
             CustomCreature,
-            UseUnityShader
+            UseUnityShader,
+            TwoSided
         }
 
         public static void RegisterGameObjectForShaderSwap(GameObject go, ShaderType type)
@@ -162,6 +163,10 @@ namespace PieceManager
                     if (material != null)
                     {
                         material.shader = GetShaderForType(material.shader, shaderType, material.shader.name);
+                        if (material.HasProperty("_NoiseTex"))
+                        {
+                            material.SetTexture("_NoiseTex", MaterialData._noiseTex);
+                        }
                     }
                 }
             }
@@ -177,6 +182,7 @@ namespace PieceManager
                 case ShaderType.RugShader: return FindShaderWithName(orig, "Custom/Rug");
                 case ShaderType.GrassShader: return FindShaderWithName(orig, "Custom/Grass");
                 case ShaderType.CustomCreature: return FindShaderWithName(orig, "Custom/Creature");
+                case ShaderType.TwoSided: return FindShaderWithName(orig, "Standard TwoSided");
                 case ShaderType.UseUnityShader:
                     return FindShaderWithName(orig,
                         FindShaderWithName(orig, originalShaderName) != null

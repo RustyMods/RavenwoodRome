@@ -82,17 +82,17 @@ public static partial class Assets
             var materials = meshRenderer.sharedMaterials;
             var grass = materials[0];
             var grassData = new MaterialData(grass, MaterialReplacer.ShaderType.VegetationShader);
-            grassData.m_floatProperties["_Height"] = 5f;
-            grassData.m_floatProperties["_SwaySpeed"] = 10f;
-            grassData.m_floatProperties["_SwayDistance"] = 25f;
-            grassData.m_floatProperties["_RippleSpeed"] = 150f;
-            grassData.m_floatProperties["_RippleDistance"] = 2f;
-            grassData.m_floatProperties["_RippleDeadzoneMin"] = 2f;
-            grassData.m_floatProperties["_RippleDeadzoneMax"] = 3f;
-            grassData.m_floatProperties["_AddSnow"] = 1f;
-            grassData.m_floatProperties["_AddRain"] = 1f;       
-            grassData.m_floatProperties["_PushDistance"] = 0.4f;
-            grassData.m_floatProperties["_PushClothMode"] = 1f;
+            grassData.floatProps["_Height"] = 5f;
+            grassData.floatProps["_SwaySpeed"] = 10f;
+            grassData.floatProps["_SwayDistance"] = 25f;
+            grassData.floatProps["_RippleSpeed"] = 150f;
+            grassData.floatProps["_RippleDistance"] = 2f;
+            grassData.floatProps["_RippleDeadzoneMin"] = 2f;
+            grassData.floatProps["_RippleDeadzoneMax"] = 3f;
+            grassData.floatProps["_AddSnow"] = 1f;
+            grassData.floatProps["_AddRain"] = 1f;       
+            grassData.floatProps["_PushDistance"] = 0.4f;
+            grassData.floatProps["_PushClothMode"] = 1f;
         }
 
         foreach (var kvp in rocks)
@@ -117,7 +117,7 @@ public static partial class Assets
             foreach (var material in materials)
             {
                 var matData = new MaterialData(material, MaterialReplacer.ShaderType.RockShader);
-                matData.m_floatProperties["_MossAlpha"] = 0f;
+                matData.floatProps["_MossAlpha"] = 0f;
             }
             
         }
@@ -146,25 +146,25 @@ public static partial class Assets
             var leaves = materials[1];
 
             var barkData = new MaterialData(bark, MaterialReplacer.ShaderType.VegetationShader);
-            barkData.m_floatProperties["_Height"] = 35f;
-            barkData.m_floatProperties["_SwaySpeed"] = 10f;
-            barkData.m_floatProperties["_SwayDistance"] = 25f;
-            barkData.m_floatProperties["_RippleSpeed"] = 100f;
-            barkData.m_floatProperties["_RippleDistance"] = 0f;
-            barkData.m_floatProperties["_RippleDeadzoneMin"] = 0.47f;
-            barkData.m_floatProperties["_RippleDeadzoneMax"] = 2.65f;
-            barkData.m_floatProperties["_AddSnow"] = 1f;
-            barkData.m_floatProperties["_AddRain"] = 1f;
+            barkData.floatProps["_Height"] = 35f;
+            barkData.floatProps["_SwaySpeed"] = 10f;
+            barkData.floatProps["_SwayDistance"] = 25f;
+            barkData.floatProps["_RippleSpeed"] = 100f;
+            barkData.floatProps["_RippleDistance"] = 0f;
+            barkData.floatProps["_RippleDeadzoneMin"] = 0.47f;
+            barkData.floatProps["_RippleDeadzoneMax"] = 2.65f;
+            barkData.floatProps["_AddSnow"] = 1f;
+            barkData.floatProps["_AddRain"] = 1f;
             var leavesData = new MaterialData(leaves, MaterialReplacer.ShaderType.VegetationShader);
-            leavesData.m_floatProperties["_Height"] = 35f;
-            leavesData.m_floatProperties["_SwaySpeed"] = 10f;
-            leavesData.m_floatProperties["_SwayDistance"] = 25f;
-            leavesData.m_floatProperties["_RippleSpeed"] = 150f;
-            leavesData.m_floatProperties["_RippleDistance"] = 2f;
-            leavesData.m_floatProperties["_RippleDeadzoneMin"] = 2f;
-            leavesData.m_floatProperties["_RippleDeadzoneMax"] = 3f;
-            leavesData.m_floatProperties["_AddSnow"] = 1f;
-            leavesData.m_floatProperties["_AddRain"] = 1f;
+            leavesData.floatProps["_Height"] = 35f;
+            leavesData.floatProps["_SwaySpeed"] = 10f;
+            leavesData.floatProps["_SwayDistance"] = 25f;
+            leavesData.floatProps["_RippleSpeed"] = 150f;
+            leavesData.floatProps["_RippleDistance"] = 2f;
+            leavesData.floatProps["_RippleDeadzoneMin"] = 2f;
+            leavesData.floatProps["_RippleDeadzoneMax"] = 3f;
+            leavesData.floatProps["_AddSnow"] = 1f;
+            leavesData.floatProps["_AddRain"] = 1f;
         }
     }
 }

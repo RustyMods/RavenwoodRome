@@ -59,7 +59,7 @@ public static partial class Assets
             foreach (var material in materials)
             {
                 var matData = new MaterialData(material, MaterialReplacer.ShaderType.RockShader);
-                matData.m_floatProperties["_MossAlpha"] = 0f;
+                matData.floatProps["_MossAlpha"] = 0f;
             }
         }
     }    

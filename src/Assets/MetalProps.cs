@@ -44,7 +44,9 @@ public static partial class Assets
             foreach (var material in meshRenderer.sharedMaterials)
             {
                 var matData = new MaterialData(material, MaterialReplacer.ShaderType.RockShader);
-                matData.m_floatProperties["_MossAlpha"] = 0f;
+                matData.floatProps["_MossAlpha"] = 0f;
+                matData.floatProps["_MetalGloss"] = 1f;
+                matData.floatProps["_Metallic"] = 0.75f;
             }        
         }
     }

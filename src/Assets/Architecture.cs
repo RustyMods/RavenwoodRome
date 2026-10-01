@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using PieceManager;
+using UnityEngine;
 
 namespace RavenwoodRome;
 
@@ -96,7 +97,7 @@ public static partial class Assets
             var piece = build.Prefab.GetComponent<Piece>();
             var wnt = build.Prefab.GetComponent<WearNTear>();
             piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_stone");
-            wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
+            wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_RockHit");
             wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed");
             build.Name.English(name);
             build.Category.Set("Ravenwood Rome");
@@ -119,7 +120,7 @@ public static partial class Assets
             var piece = build.Prefab.GetComponent<Piece>();
             var wnt = build.Prefab.GetComponent<WearNTear>();
             piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_stone");
-            wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
+            wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_RockHit");
             wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed");
             build.Name.English(name);
             build.Category.Set("Ravenwood Rome");
@@ -128,7 +129,12 @@ public static partial class Assets
             build.Crafting.Set(CraftingTable.Workbench);
             build.Snapshot();
             
-            MaterialReplacer.RegisterGameObjectForShaderSwap(build.Prefab, MaterialReplacer.ShaderType.PieceShader);
+            var meshRenderer = build.Prefab.GetComponentInChildren<MeshRenderer>();
+            foreach (var material in meshRenderer.sharedMaterials)
+            {
+                var matData = new MaterialData(material, MaterialReplacer.ShaderType.PieceShader);
+                matData.floatProps["_Metallic"] = 1f;
+            }  
         }
 
         foreach (var kvp in stairs)
@@ -140,7 +146,7 @@ public static partial class Assets
             var piece = build.Prefab.GetComponent<Piece>();
             var wnt = build.Prefab.GetComponent<WearNTear>();
             piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_stone");
-            wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
+            wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_RockHit");
             wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed");
             build.Name.English(name);
             build.Category.Set("Ravenwood Rome");

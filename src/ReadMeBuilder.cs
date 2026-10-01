@@ -38,7 +38,7 @@ public static class ReadMeBuilder
                 var resources = build.RequiredItems.Requirements
                     .Select(r => $"<li>{r.itemName} x {r.amount}</li>");
                 
-                IconExport.ExportSprite(component.m_icon, Path.Combine(Paths.ConfigPath, "BuildableNature"), component.name);
+                IconExport.ExportSprite(component.m_icon, Path.Combine(Paths.ConfigPath, "RavenwoodRome"), component.name);
 
 
                 sb.AppendLine("<table width=\"100%\">");

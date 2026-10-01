@@ -32,6 +32,7 @@ public static partial class Assets
         ["piece_rome_rope_6"] = "Roman Rope",
         ["piece_rome_scroll_1"] = "Roman Scroll",
         ["piece_rome_scroll_2"] = "Roman Scroll",
+        ["piece_rome_scroll_3"] = "Roman Scroll",
         ["piece_rome_shelf_1"] = "Roman Shelf",
         ["piece_rome_shelf_2"] = "Roman Shelf",
         ["piece_rome_shelf_3"] = "Roman Shelf",

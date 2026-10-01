@@ -34,7 +34,13 @@ public static partial class Assets
             build.Crafting.Set(CraftingTable.Workbench);
             build.Snapshot();
             doors.Add(build.Prefab);
-            MaterialReplacer.RegisterGameObjectForShaderSwap(build.Prefab, MaterialReplacer.ShaderType.RockShader);
+            var meshRenderer = build.Prefab.GetComponentInChildren<MeshRenderer>();
+            foreach (var material in meshRenderer.sharedMaterials)
+            {
+                var matData = new MaterialData(material, MaterialReplacer.ShaderType.RockShader);
+                matData.m_floatProperties["_MossAlpha"] = 0f;
+            }
+            
         }
     }
 
@@ -52,6 +58,7 @@ public static partial class Assets
                     var door = prefab.GetComponent<Door>();
                     door.m_openEffects = component.m_openEffects;
                     door.m_closeEffects = component.m_closeEffects;
+                    door.m_name = prefab.GetComponent<Piece>().m_name;
                 }
             }
         }

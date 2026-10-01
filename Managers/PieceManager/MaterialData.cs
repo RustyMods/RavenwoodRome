@@ -22,14 +22,14 @@ public class MaterialData
     {
         if (processedMaterials.Contains(material)) return;
         
-        var glossMap = material.GetTexture("_MetallicGlossMap");
+        // var glossMap = material.GetTexture("_MetallicGlossMap");
         
         material.shader = MaterialReplacer.GetShaderForType(material.shader,  shaderType, material.shader.name);
         
-        if (material.HasProperty("_MetallicTex"))
-        {
-            material.SetTexture("_MetallicTex", glossMap);
-        }
+        // if (material.HasProperty("_MetallicTex"))
+        // {
+        //     material.SetTexture("_MetallicTex", glossMap);
+        // }
         
         //
         foreach (var kvp in m_floatProperties)

@@ -29,6 +29,7 @@ public static partial class Assets
             wnt.m_destroyedEffect = new EffectListRef("sfx_wood_destroyed", "vfx_SawDust");
             container.m_openEffects = new EffectListRef("sfx_chest_open");
             container.m_closeEffects = new EffectListRef("sfx_chest_close");
+            container.m_name = "$piece_" + build.Prefab.name.Replace(" ", "_");
             build.Name.English(name);
             build.Category.Set("Rome");
             build.Usage.Set(Piece.UsageTagFlags.Decor);

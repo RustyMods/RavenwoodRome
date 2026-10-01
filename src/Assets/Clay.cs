@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using PieceManager;
+using UnityEngine;
 
 namespace RavenwoodRome;
 
@@ -44,7 +45,21 @@ public static partial class Assets
             build.RequiredItems.Add("Wood", 1, true);
             build.Crafting.Set(CraftingTable.Workbench);
             build.Snapshot();
-            MaterialReplacer.RegisterGameObjectForShaderSwap(build.Prefab, MaterialReplacer.ShaderType.RockShader);
+
+            if (build.Prefab.TryGetComponent(out Container container))
+            {
+                container.m_openEffects = new EffectListRef("sfx_chest_open");
+                container.m_closeEffects = new EffectListRef("sfx_chest_close");
+                container.m_name = "$piece_" + build.Prefab.name.Replace(" ", "_");
+            }
+            
+
+            var meshRenderer = build.Prefab.GetComponentInChildren<MeshRenderer>();
+            foreach (var material in meshRenderer.sharedMaterials)
+            {
+                var matData = new MaterialData(material, MaterialReplacer.ShaderType.RockShader);
+                matData.m_floatProperties["_MossAlpha"] = 0f;
+            }
         }
     }    
 }

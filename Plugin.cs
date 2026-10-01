@@ -39,7 +39,7 @@ public class RavenwoodRomePlugin : BaseUnityPlugin
             "If on, the configuration is locked and can be changed by server admins only.");
         _ = ConfigSync.AddLockingConfigEntry(_serverConfigLocked);
 
-        ReadMeBuilder.buildReadme = true;
+        // ReadMeBuilder.buildReadme = true;
         
         Assets.LoadBuildings();
         Assets.LoadSculptures();

@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using PieceManager;
+using UnityEngine;
 
 namespace RavenwoodRome;
 
@@ -51,8 +52,14 @@ public static partial class Assets
             build.RequiredItems.Add("Stone", 1, true);
             build.Crafting.Set(CraftingTable.Workbench);
             build.Snapshot();
-            
-            MaterialReplacer.RegisterGameObjectForShaderSwap(build.Prefab, MaterialReplacer.ShaderType.RockShader);
+
+            var meshRenderer = build.Prefab.GetComponentInChildren<MeshRenderer>();
+            var materials = meshRenderer.sharedMaterials;
+            foreach (var material in materials)
+            {
+                var matData = new MaterialData(material, MaterialReplacer.ShaderType.RockShader);
+                matData.m_floatProperties["_MossAlpha"] = 0f;
+            }
         }
     }    
 }

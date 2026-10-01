@@ -11,8 +11,8 @@ public static partial class Assets
         ["piece_market_stand_2"] = "Market Stand",
         ["piece_market_stand_3"] = "Market Stand",
         ["piece_market_stand_4"] = "Market Stand",
-        ["piece_rome_cloth_stand"] ="Cloth Stand",
-        ["piece_rome_fruit_stand"] ="Fruit Stand",
+        ["piece_rome_cloth_stand"] = "Cloth Stand",
+        ["piece_rome_fruit_stand"] = "Fruit Stand",
     };
 
     public static void LoadStands()

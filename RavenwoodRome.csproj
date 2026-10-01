@@ -191,6 +191,7 @@
         <Content Include="Icons\piece_rome_bread_1.png" />
         <Content Include="Icons\piece_rome_bread_2.png" />
         <Content Include="Icons\piece_rome_bronze_pot.png" />
+        <Content Include="Icons\piece_rome_bush_1.png" />
         <Content Include="Icons\piece_rome_candle_1.png" />
         <Content Include="Icons\piece_rome_candle_2.png" />
         <Content Include="Icons\piece_rome_candle_3.png" />

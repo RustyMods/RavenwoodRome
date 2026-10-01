@@ -33,13 +33,12 @@ public static class ReadMeBuilder
                 var unLocalizedDescription = component.m_description;
                 var iconId = component.name + ".png";
                 var iconUrl =
-                    "https://github.com/RustyMods/RavenwoodRome/tree/master/Icons/" +
+                    "https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/" +
                     iconId;
                 var resources = build.RequiredItems.Requirements
                     .Select(r => $"<li>{r.itemName} x {r.amount}</li>");
                 
-                // IconExport.ExportSprite(component.m_icon, Path.Combine(Paths.ConfigPath, "RavenwoodRome"), component.name);
-
+                IconExport.ExportSprite(component.m_icon, path, component.name);
 
                 sb.AppendLine("<table width=\"100%\">");
                 sb.AppendLine("  <tr>");

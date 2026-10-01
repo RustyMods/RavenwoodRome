@@ -52,7 +52,7 @@ public static partial class Assets
             wnt.m_hitEffect = new EffectListRef("sfx_bush_hit", "vfx_bush_puff");
             wnt.m_destroyedEffect = new EffectListRef("vfx_bush_destroyed", "sfx_bush_hit");
             build.Name.English(name);
-            build.Category.Set("Rome");
+            build.Category.Set("Ravenwood Rome");
             build.Usage.Set(Piece.UsageTagFlags.Decor);
             build.RequiredItems.Add("Wood", 1, true);
             build.Crafting.Set(CraftingTable.Workbench);
@@ -72,7 +72,7 @@ public static partial class Assets
             wnt.m_hitEffect = new EffectListRef("sfx_bush_hit", "vfx_bush_puff");
             wnt.m_destroyedEffect = new EffectListRef("vfx_bush_destroyed", "sfx_bush_hit");
             build.Name.English(name);
-            build.Category.Set("Rome");
+            build.Category.Set("Ravenwood Rome");
             build.Usage.Set(Piece.UsageTagFlags.Decor);
             build.RequiredItems.Add("Wood", 1, true);
             build.Crafting.Set(CraftingTable.Workbench);
@@ -106,7 +106,7 @@ public static partial class Assets
             wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_RockHit");
             wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed");
             build.Name.English(name);
-            build.Category.Set("Rome");
+            build.Category.Set("Ravenwood Rome");
             build.Usage.Set(Piece.UsageTagFlags.Decor);
             build.RequiredItems.Add("Stone", 1, true);
             build.Crafting.Set(CraftingTable.Workbench);
@@ -134,9 +134,9 @@ public static partial class Assets
             wnt.m_hitEffect = new EffectListRef("vfx_beech_cut", "sfx_tree_hit");
             wnt.m_destroyedEffect = new EffectListRef("vfx_beech_small1_destroy", "sfx_tree_fall");
             build.Name.English(name);
-            build.Category.Set("Rome");
+            build.Category.Set("Ravenwood Rome");
             build.Usage.Set(Piece.UsageTagFlags.Decor);
-            build.RequiredItems.Add("Wood", 1, true);
+            build.RequiredItems.Add("FineWood", 10, true);
             build.Crafting.Set(CraftingTable.Workbench);
             build.Snapshot();
             

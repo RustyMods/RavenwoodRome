@@ -9,7 +9,7 @@ public class EffectListRef
     [HarmonyPatch(typeof(ZNetScene), nameof(ZNetScene.Awake))]
     private static class ZNetScene_Awake_Patch
     {
-        private static void Postfix() => EffectListRef.LoadAll();
+        private static void Postfix() => LoadAll();
     }
     private static readonly List<EffectListRef> m_effectListRefs = [];
 

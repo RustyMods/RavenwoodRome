@@ -33,6 +33,7 @@ public static partial class Assets
         ["piece_sculpture_woman_gold"] = "Woman",
         ["piece_sculpture_woman_stone"] = "Woman",
     };
+    
     public static void LoadSculptures()
     {
         foreach (var kvp in sculptures)
@@ -47,9 +48,9 @@ public static partial class Assets
             wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
             wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed");
             build.Name.English(name);
-            build.Category.Set("Rome");
+            build.Category.Set("Ravenwood Rome");
             build.Usage.Set(Piece.UsageTagFlags.Decor);
-            build.RequiredItems.Add("Stone", 1, true);
+            build.RequiredItems.Add("Stone", 20, true);
             build.Crafting.Set(CraftingTable.Workbench);
             build.Snapshot();
 

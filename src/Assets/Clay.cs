@@ -40,9 +40,9 @@ public static partial class Assets
             piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_default");
             wnt.m_destroyedEffect = new EffectListRef("sfx_clay_pot_break");
             build.Name.English(name);
-            build.Category.Set("Rome");
+            build.Category.Set("Ravenwood Rome");
             build.Usage.Set(Piece.UsageTagFlags.Decor);
-            build.RequiredItems.Add("Wood", 1, true);
+            build.RequiredItems.Add("FineWood", 10, true);
             build.Crafting.Set(CraftingTable.Workbench);
             build.Snapshot();
 

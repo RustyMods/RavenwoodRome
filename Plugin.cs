@@ -4,6 +4,7 @@ using BepInEx;
 using BepInEx.Configuration;
 using BepInEx.Logging;
 using HarmonyLib;
+using PieceManager;
 using ServerSync;
 
 namespace RavenwoodRome;
@@ -13,17 +14,19 @@ public class RavenwoodRomePlugin : BaseUnityPlugin
 {
     internal const string ModName = "RavenwoodRome";
     internal const string ModVersion = "1.0.2";
-    internal const string Author = "RustyMods";
+    internal const string Author = "JamesJonesTV";
     private const string ModGUID = Author + "." + ModName;
     private static readonly string ConfigFileName = ModGUID + ".cfg";
     private static readonly string ConfigFileFullPath = Paths.ConfigPath + Path.DirectorySeparatorChar + ConfigFileName;
     internal static string ConnectionError = "";
-    private readonly Harmony _harmony = new(ModGUID);
+    public readonly Harmony _harmony = new(ModGUID);
 
     public static readonly ManualLogSource RavenwoodRomeLogger = BepInEx.Logging.Logger.CreateLogSource(ModName);
 
     private static readonly ConfigSync ConfigSync = new(ModGUID)
         { DisplayName = ModName, CurrentVersion = ModVersion, MinimumRequiredVersion = ModVersion };
+
+    public static RavenwoodRomePlugin instance;
 
     public enum Toggle
     {
@@ -35,11 +38,12 @@ public class RavenwoodRomePlugin : BaseUnityPlugin
 
     public void Awake()
     {
+        instance = this;
         _serverConfigLocked = config("1 - General", "Lock Configuration", Toggle.On,
             "If on, the configuration is locked and can be changed by server admins only.");
         _ = ConfigSync.AddLockingConfigEntry(_serverConfigLocked);
 
-        // ReadMeBuilder.buildReadme = true;
+        // ReadMeBuilder.Init();
         
         Assets.LoadBuildings();
         Assets.LoadSculptures();

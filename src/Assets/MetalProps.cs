@@ -34,9 +34,10 @@ public static partial class Assets
             piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_metal");
             wnt.m_destroyedEffect = new EffectListRef("sfx_metal_blocked", "sfx_SawDust");
             build.Name.English(name);
-            build.Category.Set("Rome");
+            build.Category.Set("Ravenwood Rome");
             build.Usage.Set(Piece.UsageTagFlags.Decor);
-            build.RequiredItems.Add("Wood", 1, true);
+            build.RequiredItems.Add("Wood", 10, true);
+            build.RequiredItems.Add("Bronze",1,true);
             build.Crafting.Set(CraftingTable.Workbench);
             build.Snapshot();
             var meshRenderer = build.Prefab.GetComponentInChildren<MeshRenderer>();

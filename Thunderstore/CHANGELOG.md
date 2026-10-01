@@ -1,5 +1,9 @@
-| `Version` | `Update Notes`      |
-|-----------|---------------------|
-| 1.0.0     | - Initial Release   |
-| 1.0.1     | - ???               |
-| 1.0.2     | - Deep north update |
+### 1.0.2
+- deep north update
+- updated server sync
+- updated piece manager
+- rebuilt entire project
+### 1.0.1
+- ???
+### 1.0.0
+- initial release

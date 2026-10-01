@@ -2,7 +2,7 @@
   "name": "RavenwoodRome",
   "version_number": "1.0.2",
   "website_url": "https://github.com/RustyMods/RavenwoodRome",
-  "description": "Rome pieces",
+  "description": "Adds 100+ new Roman building pieces.",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.2351"
   ]

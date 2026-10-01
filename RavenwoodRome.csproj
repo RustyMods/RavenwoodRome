@@ -153,14 +153,10 @@
         <None Include="App.config"/>
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="..\..\..\Desktop\Valheim\V1\AssetBundles\StandaloneWindows\ravenwood_rome">
-          <Link>assets\ravenwood_rome</Link>
-        </EmbeddedResource>
-        <Content Include="..\..\..\Desktop\Valheim\V1\AssetBundles\StandaloneWindows\ravenwood_rome.manifest">
-          <Link>assets\ravenwood_rome.manifest</Link>
-        </Content>
-        <Content Include=".gitignore"/>
-        <Content Include="environment.props"/>
+        <Content Include=".gitignore" />
+        <EmbeddedResource Include="assets\ravenwood_rome" />
+        <Content Include="assets\ravenwood_rome.manifest" />
+        <Content Include="environment.props" />
         <Content Include="Icons\piece_amphora_1.png" />
         <Content Include="Icons\piece_amphora_2.png" />
         <Content Include="Icons\piece_amphora_3.png" />
@@ -358,18 +354,18 @@
         <Content Include="Icons\piece_sculpture_soldier_stone.png" />
         <Content Include="Icons\piece_sculpture_woman_gold.png" />
         <Content Include="Icons\piece_sculpture_woman_stone.png" />
-        <Content Include="ILRepack.targets"/>
+        <Content Include="ILRepack.targets" />
         <Content Include="Libs\ServerSync.dll">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
-        <Content Include="README.md"/>
-        <Content Include="Thunderstore\CHANGELOG.md"/>
+        <Content Include="README.md" />
+        <Content Include="Thunderstore\CHANGELOG.md" />
         <Content Include="Thunderstore\icon.png" />
-        <Content Include="Thunderstore\manifest.json"/>
-        <EmbeddedResource Include="translations\English.yml"/>
+        <Content Include="Thunderstore\manifest.json" />
+        <EmbeddedResource Include="translations\English.yml" />
         <Content Include="Thunderstore\RavenwoodRome.dll" />
         <Content Include="Thunderstore\README.md" />
-        <Content Include="UpdateManifest.ps1"/>
+        <Content Include="UpdateManifest.ps1" />
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="ILRepack.Lib.MSBuild.Task" Version="2.0.44.1">

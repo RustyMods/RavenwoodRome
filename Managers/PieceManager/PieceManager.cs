@@ -169,6 +169,9 @@ public class BuildPiece
         public ConfigEntry<float> maxStationDistance = null!;
         public ConfigEntry<CraftingTable> table = null!;
         public ConfigEntry<string> customTable = null!;
+        public ConfigEntry<float> health = null!;
+        public ConfigEntry<bool> supports = null!;
+        public ConfigEntry<WearNTear.MaterialType> material = null!;
     }
 
     internal static readonly List<BuildPiece> registeredPieces = [];
@@ -633,6 +636,35 @@ public class BuildPiece
                             piece.conversions[index].m_to = outputItem;
                         }
                     };
+                }
+
+                if (piece.Prefab.TryGetComponent(out WearNTear wnt))
+                {
+                    cfg.health = config(englishName, "Health", wnt.m_health, new ConfigDescription(
+                        $"Set {localizedName} health", null, new ConfigurationManagerAttributes
+                        {
+                            Category = localizedName,
+                            Order = --order
+                        }));
+                    cfg.health.SettingChanged += (_, _) => wnt.m_health = cfg.health.Value;
+
+                    cfg.material = config(englishName, "Material", wnt.m_materialType, new ConfigDescription(
+                        $"Set {localizedName} material", null, new ConfigurationManagerAttributes
+                        {
+                            Category = localizedName,
+                            Order = --order
+                        }));
+                    
+                    cfg.material.SettingChanged +=  (_, _) => wnt.m_materialType = cfg.material.Value;
+
+                    cfg.supports = config(englishName, "Supports", wnt.m_supports, new ConfigDescription(
+                        $"If true, {localizedName} supports other pieces", null, new ConfigurationManagerAttributes
+                        {
+                            Category = localizedName,
+                            Order = --order
+                        }));
+                    
+                    cfg.supports.SettingChanged += (_, _) => wnt.m_supports = cfg.supports.Value;
                 }
             }
 

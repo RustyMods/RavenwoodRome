@@ -51,21 +51,9 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_arch_build.png" width="128" height="128" alt="piece_rome_arch_build"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_arch_build</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_arch_build</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Wood x 1</li>
+      <li>Coins x 4000</li>
+      <li>Stone x 1000</li>
+      <li>BronzeNails x 500</li>
     </ul>
   </td></tr>
 </table>
@@ -79,21 +67,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_senate.png" width="128" height="128" alt="piece_rome_senate"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_senate</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_senate</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Wood x 1</li>
+      <li>Coins x 1000</li>
+      <li>Stone x 400</li>
+      <li>FineWood x 400</li>
+      <li>BronzeNails x 200</li>
     </ul>
   </td></tr>
 </table>
@@ -107,7 +84,44 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Coins x 500</li>
+      <li>Stone x 250</li>
+      <li>FineWood x 250</li>
+      <li>BronzeNails x 125</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_senate.png" width="128" height="128" alt="piece_rome_senate"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_senate</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_senate</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>Coins x 1500</li>
+      <li>Stone x 500</li>
+      <li>FineWood x 500</li>
+      <li>BronzeNails x 250</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_arch_build.png" width="128" height="128" alt="piece_rome_arch_build"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_arch_build</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_arch_build</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 100</li>
+      <li>BronzeNails x 50</li>
     </ul>
   </td></tr>
 </table>
@@ -121,7 +135,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -135,7 +152,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -149,7 +169,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -163,7 +186,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -177,7 +203,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -191,7 +220,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -205,7 +237,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -219,7 +254,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -233,7 +271,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -247,7 +288,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -261,7 +305,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -275,7 +322,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -289,7 +339,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -303,7 +356,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -317,7 +373,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -331,7 +390,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -345,7 +407,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -359,7 +424,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -373,7 +441,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -387,7 +458,10 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 200</li>
+      <li>Stone x 200</li>
+      <li>RoundLog x 40</li>
+      <li>BronzeNails x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -401,7 +475,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -415,7 +489,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -429,7 +503,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -443,7 +517,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -457,7 +531,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -471,7 +545,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -485,7 +559,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -499,7 +573,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -513,7 +587,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -527,7 +601,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -541,7 +615,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -555,7 +629,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -569,7 +643,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -583,7 +657,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -597,7 +671,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -611,7 +685,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -625,7 +699,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -639,7 +713,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -653,7 +727,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -667,7 +741,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -681,7 +755,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -695,7 +769,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -709,7 +783,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -723,7 +797,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 20</li>
     </ul>
   </td></tr>
 </table>
@@ -737,7 +811,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
+      <li>Tin x 1</li>
     </ul>
   </td></tr>
 </table>
@@ -751,7 +826,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
+      <li>Tin x 1</li>
     </ul>
   </td></tr>
 </table>
@@ -765,7 +841,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
+      <li>Tin x 1</li>
     </ul>
   </td></tr>
 </table>
@@ -779,7 +856,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
+      <li>Tin x 1</li>
     </ul>
   </td></tr>
 </table>
@@ -793,7 +871,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
+      <li>Tin x 1</li>
     </ul>
   </td></tr>
 </table>
@@ -807,7 +886,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
+      <li>Tin x 1</li>
     </ul>
   </td></tr>
 </table>
@@ -877,7 +957,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Honey x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -891,7 +971,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Honey x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -905,7 +985,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Honey x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -919,7 +999,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Honey x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -933,7 +1013,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Honey x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -947,7 +1027,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Honey x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -961,7 +1041,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
+      <li>Bronze x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -975,7 +1056,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
+      <li>Bronze x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -989,7 +1071,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -1003,7 +1085,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -1017,7 +1099,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -1031,7 +1113,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -1045,7 +1127,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -1059,7 +1141,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -1073,7 +1155,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -1087,7 +1169,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -1101,7 +1183,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -1115,7 +1197,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -1129,7 +1211,9 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
+      <li>Bronze x 2</li>
+      <li>Coal x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -1143,7 +1227,9 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
+      <li>Bronze x 2</li>
+      <li>Coal x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -1157,7 +1243,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
+      <li>Bronze x 1</li>
     </ul>
   </td></tr>
 </table>
@@ -1171,7 +1258,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
+      <li>Bronze x 1</li>
     </ul>
   </td></tr>
 </table>
@@ -1185,7 +1273,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
+      <li>Bronze x 1</li>
     </ul>
   </td></tr>
 </table>
@@ -1199,7 +1288,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
+      <li>Bronze x 1</li>
     </ul>
   </td></tr>
 </table>
@@ -1213,7 +1303,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
+      <li>Bronze x 1</li>
     </ul>
   </td></tr>
 </table>
@@ -1227,7 +1318,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
+      <li>Bronze x 1</li>
     </ul>
   </td></tr>
 </table>
@@ -1241,7 +1333,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
+      <li>Bronze x 1</li>
     </ul>
   </td></tr>
 </table>
@@ -1255,7 +1348,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
+      <li>Bronze x 1</li>
     </ul>
   </td></tr>
 </table>
@@ -1269,7 +1363,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
+      <li>Bronze x 1</li>
     </ul>
   </td></tr>
 </table>
@@ -1283,7 +1378,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
+      <li>Bronze x 1</li>
     </ul>
   </td></tr>
 </table>
@@ -1297,7 +1393,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
+      <li>Bronze x 1</li>
     </ul>
   </td></tr>
 </table>
@@ -1311,7 +1408,8 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
+      <li>Bronze x 1</li>
     </ul>
   </td></tr>
 </table>
@@ -1325,7 +1423,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1339,21 +1437,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_bed_1.png" width="128" height="128" alt="piece_rome_bed_1"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_bed_1</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_bed_1</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1367,7 +1451,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1381,7 +1465,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1395,7 +1479,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1409,7 +1493,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1423,7 +1507,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1437,7 +1521,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1451,21 +1535,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_desk.png" width="128" height="128" alt="piece_rome_desk"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_desk</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_desk</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1479,7 +1549,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1493,7 +1563,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1507,7 +1577,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1521,7 +1591,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1535,7 +1605,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1549,7 +1619,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1563,7 +1633,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1577,7 +1647,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1591,7 +1661,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1605,7 +1675,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1619,7 +1689,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1633,7 +1703,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1647,7 +1717,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1661,7 +1731,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1675,161 +1745,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_shelf_1.png" width="128" height="128" alt="piece_rome_shelf_1"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_shelf_1</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_shelf_1</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Wood x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_shelf_2.png" width="128" height="128" alt="piece_rome_shelf_2"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_shelf_2</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_shelf_2</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Wood x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_shelf_3.png" width="128" height="128" alt="piece_rome_shelf_3"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_shelf_3</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_shelf_3</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Wood x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_shelf_4.png" width="128" height="128" alt="piece_rome_shelf_4"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_shelf_4</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_shelf_4</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Wood x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_shelf_5.png" width="128" height="128" alt="piece_rome_shelf_5"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_shelf_5</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_shelf_5</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Wood x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_table_1.png" width="128" height="128" alt="piece_rome_table_1"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_table_1</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_table_1</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Wood x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_table_2.png" width="128" height="128" alt="piece_rome_table_2"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_table_2</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_table_2</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Wood x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_table_3.png" width="128" height="128" alt="piece_rome_table_3"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_table_3</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_table_3</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Wood x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_table_4.png" width="128" height="128" alt="piece_rome_table_4"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_table_4</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_table_4</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Wood x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_table_5.png" width="128" height="128" alt="piece_rome_table_5"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_table_5</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_table_5</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Wood x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_table_6.png" width="128" height="128" alt="piece_rome_table_6"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_table_6</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_table_6</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1843,7 +1759,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1857,7 +1773,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1871,7 +1787,187 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 2</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_shelf_1.png" width="128" height="128" alt="piece_rome_shelf_1"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_shelf_1</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_shelf_1</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>FineWood x 10</li>
+      <li>BronzeNails x 2</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_shelf_2.png" width="128" height="128" alt="piece_rome_shelf_2"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_shelf_2</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_shelf_2</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>FineWood x 10</li>
+      <li>BronzeNails x 2</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_shelf_3.png" width="128" height="128" alt="piece_rome_shelf_3"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_shelf_3</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_shelf_3</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>FineWood x 10</li>
+      <li>BronzeNails x 2</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_shelf_4.png" width="128" height="128" alt="piece_rome_shelf_4"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_shelf_4</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_shelf_4</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>FineWood x 10</li>
+      <li>BronzeNails x 2</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_shelf_5.png" width="128" height="128" alt="piece_rome_shelf_5"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_shelf_5</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_shelf_5</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>FineWood x 10</li>
+      <li>BronzeNails x 2</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_desk.png" width="128" height="128" alt="piece_rome_desk"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_desk</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_desk</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>FineWood x 10</li>
+      <li>BronzeNails x 2</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_table_1.png" width="128" height="128" alt="piece_rome_table_1"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_table_1</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_table_1</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>FineWood x 10</li>
+      <li>BronzeNails x 2</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_table_2.png" width="128" height="128" alt="piece_rome_table_2"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_table_2</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_table_2</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>FineWood x 10</li>
+      <li>BronzeNails x 2</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_table_3.png" width="128" height="128" alt="piece_rome_table_3"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_table_3</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_table_3</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>FineWood x 10</li>
+      <li>BronzeNails x 2</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_table_4.png" width="128" height="128" alt="piece_rome_table_4"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_table_4</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_table_4</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>FineWood x 10</li>
+      <li>BronzeNails x 2</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_table_5.png" width="128" height="128" alt="piece_rome_table_5"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_table_5</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_table_5</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>FineWood x 10</li>
+      <li>BronzeNails x 2</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_table_6.png" width="128" height="128" alt="piece_rome_table_6"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_table_6</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_table_6</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>FineWood x 10</li>
+      <li>BronzeNails x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1885,7 +1981,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -1899,7 +1995,22 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>Wood x 10</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_bed_1.png" width="128" height="128" alt="piece_rome_bed_1"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_bed_1</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_bed_1</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>FineWood x 10</li>
+      <li>Bronze x 2</li>
     </ul>
   </td></tr>
 </table>
@@ -1913,133 +2024,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_column_1.png" width="128" height="128" alt="piece_rome_column_1"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_column_1</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_column_1</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Stone x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_column_2.png" width="128" height="128" alt="piece_rome_column_2"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_column_2</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_column_2</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Stone x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_column_3.png" width="128" height="128" alt="piece_rome_column_3"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_column_3</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_column_3</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Stone x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_column_4.png" width="128" height="128" alt="piece_rome_column_4"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_column_4</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_column_4</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Stone x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_column_5.png" width="128" height="128" alt="piece_rome_column_5"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_column_5</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_column_5</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Stone x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_column_6.png" width="128" height="128" alt="piece_rome_column_6"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_column_6</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_column_6</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Stone x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_column_7.png" width="128" height="128" alt="piece_rome_column_7"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_column_7</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_column_7</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Stone x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_column_8.png" width="128" height="128" alt="piece_rome_column_8"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_column_8</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_column_8</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Stone x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_column_9.png" width="128" height="128" alt="piece_rome_column_9"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_column_9</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_column_9</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2053,7 +2038,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2067,7 +2052,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2081,7 +2066,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2095,7 +2080,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2109,49 +2094,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_stair_1.png" width="128" height="128" alt="piece_rome_stair_1"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_stair_1</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_stair_1</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Stone x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_stair_2.png" width="128" height="128" alt="piece_rome_stair_2"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_stair_2</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_stair_2</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Stone x 1</li>
-    </ul>
-  </td></tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_stair_3.png" width="128" height="128" alt="piece_rome_stair_3"></td>
-    <td><b>Internal ID:</b> <code>piece_rome_stair_3</code></td>
-  </tr>
-  <tr><td><b>Name:</b> $piece_rome_stair_3</td></tr>
-  <tr><td><b>Description:</b> </td></tr>
-  <tr><td><b>Resources:</b>
-    <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2165,7 +2108,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2179,7 +2122,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 50</li>
     </ul>
   </td></tr>
 </table>
@@ -2193,7 +2136,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 50</li>
     </ul>
   </td></tr>
 </table>
@@ -2207,7 +2150,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 50</li>
     </ul>
   </td></tr>
 </table>
@@ -2221,7 +2164,177 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Stone x 1</li>
+      <li>Stone x 25</li>
+      <li>FineWood x 5</li>
+      <li>Coins x 5</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_column_1.png" width="128" height="128" alt="piece_rome_column_1"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_column_1</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_column_1</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>Stone x 20</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_column_2.png" width="128" height="128" alt="piece_rome_column_2"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_column_2</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_column_2</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>Stone x 20</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_column_3.png" width="128" height="128" alt="piece_rome_column_3"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_column_3</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_column_3</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>Stone x 20</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_column_4.png" width="128" height="128" alt="piece_rome_column_4"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_column_4</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_column_4</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>Stone x 20</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_column_5.png" width="128" height="128" alt="piece_rome_column_5"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_column_5</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_column_5</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>Stone x 20</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_column_6.png" width="128" height="128" alt="piece_rome_column_6"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_column_6</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_column_6</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>Stone x 20</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_column_7.png" width="128" height="128" alt="piece_rome_column_7"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_column_7</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_column_7</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>Stone x 20</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_column_8.png" width="128" height="128" alt="piece_rome_column_8"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_column_8</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_column_8</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>Stone x 20</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_column_9.png" width="128" height="128" alt="piece_rome_column_9"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_column_9</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_column_9</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>Stone x 20</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_stair_1.png" width="128" height="128" alt="piece_rome_stair_1"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_stair_1</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_stair_1</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>Stone x 50</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_stair_2.png" width="128" height="128" alt="piece_rome_stair_2"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_stair_2</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_stair_2</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>Stone x 50</li>
+    </ul>
+  </td></tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td rowspan="4" width="128" align="center" valign="middle"><img src="https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/piece_rome_stair_3.png" width="128" height="128" alt="piece_rome_stair_3"></td>
+    <td><b>Internal ID:</b> <code>piece_rome_stair_3</code></td>
+  </tr>
+  <tr><td><b>Name:</b> $piece_rome_stair_3</td></tr>
+  <tr><td><b>Description:</b> </td></tr>
+  <tr><td><b>Resources:</b>
+    <ul>
+      <li>Stone x 50</li>
     </ul>
   </td></tr>
 </table>
@@ -2235,7 +2348,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2249,7 +2362,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2263,7 +2376,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2277,7 +2390,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2291,7 +2404,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2305,7 +2418,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2319,7 +2432,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2333,7 +2446,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2347,7 +2460,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2361,7 +2474,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2375,7 +2488,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2389,7 +2502,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2403,7 +2516,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2417,7 +2530,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2431,7 +2544,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2445,7 +2558,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2459,7 +2572,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2473,7 +2586,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2487,7 +2600,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2501,7 +2614,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2515,7 +2628,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2529,7 +2642,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2543,7 +2656,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2557,7 +2670,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2571,7 +2684,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2753,7 +2866,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2767,7 +2880,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2781,7 +2894,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2795,7 +2908,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>
@@ -2809,7 +2922,7 @@ If anyone wants to help you can donate below and it will go towards adding more 
   <tr><td><b>Description:</b> </td></tr>
   <tr><td><b>Resources:</b>
     <ul>
-      <li>Wood x 1</li>
+      <li>FineWood x 10</li>
     </ul>
   </td></tr>
 </table>

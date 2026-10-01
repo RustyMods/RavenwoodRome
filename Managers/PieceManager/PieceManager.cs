@@ -229,7 +229,7 @@ public class BuildPiece
             }
             else
             {
-                string key = "$piece_" + Prefab.name.Replace(" ", "_");
+                string key = (Prefab.name.StartsWith("piece") ? "$" : "$piece_") + Prefab.name.Replace(" ", "_");
                 _name = new LocalizeKey(key).English(data.m_name);
                 data.m_name = key;
             }

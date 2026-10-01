@@ -39,7 +39,6 @@ public static partial class Assets
         ["piece_rome_tree_5"] = "Roman Tree",
     };
 
-    private static string lastTree = "piece_rome_tree_5";
     public static void LoadNature()
     {
         foreach (var kvp in bushes)

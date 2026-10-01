@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 using HarmonyLib;
-
+#nullable  enable
 namespace RavenwoodRome
 {
     [HarmonyPatch(typeof(ZNet), nameof(ZNet.OnNewConnection))]

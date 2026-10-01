@@ -123,11 +123,9 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Managers\LocalizationManager.cs"/>
         <Compile Include="Managers\PieceManager\MaterialData.cs" />
         <Compile Include="Managers\PieceManager\MaterialReplacer.cs"/>
         <Compile Include="Managers\PieceManager\PieceManager.cs"/>
-        <Compile Include="Managers\PieceManager\SnapPointMaker.cs"/>
         <Compile Include="Plugin.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
         <Compile Include="src\Assets\Architecture.cs" />
@@ -141,6 +139,7 @@
         <Compile Include="src\Assets\Doors.cs" />
         <Compile Include="src\Assets\Fires.cs" />
         <Compile Include="src\Assets\MetalProps.cs" />
+        <Compile Include="src\Assets\Nature.cs" />
         <Compile Include="src\Assets\Props.cs" />
         <Compile Include="src\Assets\Stands.cs" />
         <Compile Include="src\Assets\Statues.cs" />
@@ -221,6 +220,7 @@
         <Content Include="Icons\piece_rome_door_knob_lion.png" />
         <Content Include="Icons\piece_rome_firebowl.png" />
         <Content Include="Icons\piece_rome_fruit_stand.png" />
+        <Content Include="Icons\piece_rome_grass.png" />
         <Content Include="Icons\piece_rome_hanging_cloth_1.png" />
         <Content Include="Icons\piece_rome_hanging_cloth_2.png" />
         <Content Include="Icons\piece_rome_hanging_cloth_3.png" />
@@ -266,6 +266,16 @@
         <Content Include="Icons\piece_rome_pottery_7.png" />
         <Content Include="Icons\piece_rome_pottery_8.png" />
         <Content Include="Icons\piece_rome_pottery_9.png" />
+        <Content Include="Icons\piece_rome_rock_1.png" />
+        <Content Include="Icons\piece_rome_rock_10.png" />
+        <Content Include="Icons\piece_rome_rock_2.png" />
+        <Content Include="Icons\piece_rome_rock_3.png" />
+        <Content Include="Icons\piece_rome_rock_4.png" />
+        <Content Include="Icons\piece_rome_rock_5.png" />
+        <Content Include="Icons\piece_rome_rock_6.png" />
+        <Content Include="Icons\piece_rome_rock_7.png" />
+        <Content Include="Icons\piece_rome_rock_8.png" />
+        <Content Include="Icons\piece_rome_rock_9.png" />
         <Content Include="Icons\piece_rome_rope_1.png" />
         <Content Include="Icons\piece_rome_rope_2.png" />
         <Content Include="Icons\piece_rome_rope_3.png" />
@@ -301,6 +311,11 @@
         <Content Include="Icons\piece_rome_table_4.png" />
         <Content Include="Icons\piece_rome_table_5.png" />
         <Content Include="Icons\piece_rome_table_6.png" />
+        <Content Include="Icons\piece_rome_tree_1.png" />
+        <Content Include="Icons\piece_rome_tree_2.png" />
+        <Content Include="Icons\piece_rome_tree_3.png" />
+        <Content Include="Icons\piece_rome_tree_4.png" />
+        <Content Include="Icons\piece_rome_tree_5.png" />
         <Content Include="Icons\piece_rome_vase_1.png" />
         <Content Include="Icons\piece_rome_vase_2.png" />
         <Content Include="Icons\piece_rome_vase_3.png" />
@@ -360,7 +375,6 @@
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="YamlDotNet" Version="16.3.0"/>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

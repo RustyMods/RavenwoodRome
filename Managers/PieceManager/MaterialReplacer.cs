@@ -4,7 +4,7 @@ using System.Linq;
 using HarmonyLib;
 using JetBrains.Annotations;
 using UnityEngine;
-
+#nullable  enable
 namespace PieceManager
 {
     [PublicAPI]

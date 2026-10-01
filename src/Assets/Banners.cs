@@ -46,6 +46,17 @@ public static partial class Assets
                 
                 var metalDat = new MaterialData(metalMat, MaterialReplacer.ShaderType.RockShader);
                 var bannerDat = new MaterialData(bannerMat, MaterialReplacer.ShaderType.VegetationShader);
+                bannerDat.m_floatProperties["_AddRain"] = 1f;
+                bannerDat.m_floatProperties["_Height"] = 15f;
+                bannerDat.m_floatProperties["_SwaySpeed"] = 15f;
+                bannerDat.m_floatProperties["_RippleSpeed"] = 50f;
+                bannerDat.m_floatProperties["_RippleDistance"] = 0.5f;
+                bannerDat.m_floatProperties["_RippleDeadzoneMin"] = 0f;
+                bannerDat.m_floatProperties["_RippleDeadzoneMax"] = 0f;
+                bannerDat.m_floatProperties["_PushDistance"] = 0.4f;
+                bannerDat.m_floatProperties["_PushClothMode"] = 1f;
+                bannerDat.m_floatProperties["_CamCull"] = 0f;
+                bannerDat.m_floatProperties["_TwoSidedNormals"] = 0f;
                 loadedMat = true;
             }
         }

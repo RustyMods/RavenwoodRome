@@ -6,11 +6,9 @@ namespace PieceManager;
 public class MaterialData
 {
     public static List<Material> processedMaterials = [];
-    public static bool logged;
-    
     public Material material;
     public MaterialReplacer.ShaderType shaderType;
-    public Dictionary<string, float> floats = new();
+    public Dictionary<string, float> m_floatProperties = new();
     public Dictionary<string, string> textureTransfer = new();
     
     public MaterialData(Material material, MaterialReplacer.ShaderType shaderType)
@@ -27,14 +25,6 @@ public class MaterialData
         var glossMap = material.GetTexture("_MetallicGlossMap");
         
         material.shader = MaterialReplacer.GetShaderForType(material.shader,  shaderType, material.shader.name);
-        // if (!logged)
-        // {
-        //     foreach (var prop in material.GetPropertyNames(MaterialPropertyType.Texture))
-        //     {
-        //         Debug.LogWarning(prop);
-        //     }
-        //     logged = true;
-        // }
         
         if (material.HasProperty("_MetallicTex"))
         {
@@ -42,13 +32,13 @@ public class MaterialData
         }
         
         //
-        // foreach (var kvp in floats)
-        // {
-        //     if (material.HasProperty(kvp.Key))
-        //     {
-        //         material.SetFloat(kvp.Key, kvp.Value);
-        //     }
-        // }
+        foreach (var kvp in m_floatProperties)
+        {
+            if (material.HasProperty(kvp.Key))
+            {
+                material.SetFloat(kvp.Key, kvp.Value);
+            }
+        }
         
         processedMaterials.Add(material);
     }
@@ -117,3 +107,40 @@ public class MaterialData
 // _SmoothnessSpacer
 // _UseGlossMap
 // _WaterlineOffset
+
+
+
+///// VEGETATION SHADER
+// _Cutoff
+// _BumpScale
+// _Glossiness
+// _Metallic
+// _Cull
+// _AddSnow
+// _AddRain
+// _Height
+// _RippleDeadzoneMax
+// _RippleDeadzoneMin
+// _RippleDistance
+// _RippleSpeed
+// _SwayDistance
+// _SwaySpeed
+// _TwoSidedNormals
+// _MetalGloss
+// _CamCull
+// _PushDistance
+// _MossAlpha
+// _MossBlend
+// _MossNormal
+// _MossTransition
+// _SphereNormals
+// _SphereOffset
+// _PushClothMode
+// _SnowSparkleLum
+// _USEMETALMAP
+// _UV2Height
+// _MainTex
+// _BumpMap
+// _EmissiveTex
+// _MetalTex
+// _MossTex

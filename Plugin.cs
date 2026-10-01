@@ -35,9 +35,6 @@ public class RavenwoodRomePlugin : BaseUnityPlugin
 
     public void Awake()
     {
-        var saveOnSet = Config.SaveOnConfigSet;
-        Config.SaveOnConfigSet = false;
-
         _serverConfigLocked = config("1 - General", "Lock Configuration", Toggle.On,
             "If on, the configuration is locked and can be changed by server admins only.");
         _ = ConfigSync.AddLockingConfigEntry(_serverConfigLocked);
@@ -58,15 +55,11 @@ public class RavenwoodRomePlugin : BaseUnityPlugin
         Assets.LoadArchitectures();
         Assets.LoadStands();
         Assets.LoadClayPottery();
+        Assets.LoadNature();
+        
         var assembly = Assembly.GetExecutingAssembly();
         _harmony.PatchAll(assembly);
         SetupWatcher();
-
-        if (saveOnSet)
-        {
-            Config.SaveOnConfigSet = saveOnSet;
-            Config.Save();
-        }
     }
 
 

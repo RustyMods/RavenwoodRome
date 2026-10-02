@@ -26,14 +26,70 @@ public static class ReadMeBuilder
     }
     public static void Build()
     {
+        BuildAlt();
+        // if (!buildReadme) return;
+        //     
+        // var path = Path.Combine(Paths.ConfigPath, "RavenwoodRome");
+        // Directory.CreateDirectory(path);
+        //
+        // var sb = new StringBuilder();
+        // sb.AppendLine("# Ravenwood Rome");
+        // sb.AppendLine();
+        //
+        // foreach (var build in BuildPiece.registeredPieces)
+        // {
+        //     var component = build.Prefab.GetComponent<Piece>();
+        //     var internalId = component.name;
+        //     var unLocalizedName = component.m_name;
+        //     var unLocalizedDescription = component.m_description;
+        //     var iconId = component.name + ".png";
+        //     var iconUrl =
+        //         "https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/" +
+        //         iconId;
+        //     var resources = build.RequiredItems.Requirements
+        //         .Select(r => $"<li>{r.itemName} x {r.amount}</li>");
+        //     
+        //     if (exportSprites)
+        //     {
+        //         IconExport.ExportSprite(component.m_icon, path, component.name);
+        //     }
+        //
+        //     sb.AppendLine("<table width=\"100%\">");
+        //     sb.AppendLine("  <tr>");
+        //     sb.AppendLine(
+        //         $"    <td rowspan=\"4\" width=\"128\" align=\"center\" valign=\"middle\"><img src=\"{iconUrl}\" width=\"128\" height=\"128\" alt=\"{internalId}\"></td>");
+        //     sb.AppendLine($"    <td><b>Internal ID:</b> <code>{internalId}</code></td>");
+        //     sb.AppendLine("  </tr>");
+        //     sb.AppendLine($"  <tr><td><b>Name:</b> {unLocalizedName}</td></tr>");
+        //     sb.AppendLine($"  <tr><td><b>Description:</b> {unLocalizedDescription}</td></tr>");
+        //     sb.AppendLine("  <tr><td><b>Resources:</b>");
+        //     sb.AppendLine("    <ul>");
+        //     foreach (var resource in resources)
+        //     {
+        //         sb.AppendLine($"      {resource}");
+        //     }
+        //
+        //     sb.AppendLine("    </ul>");
+        //     sb.AppendLine("  </td></tr>");
+        //     sb.AppendLine("</table>");
+        //     sb.AppendLine();
+        // }
+        //
+        // File.WriteAllText(Path.Combine(path, "README.md"), sb.ToString());
+    }
+    
+    public static void BuildAlt()
+    {
         if (!buildReadme) return;
-            
+
         var path = Path.Combine(Paths.ConfigPath, "RavenwoodRome");
         Directory.CreateDirectory(path);
 
         var sb = new StringBuilder();
         sb.AppendLine("# Ravenwood Rome");
         sb.AppendLine();
+        sb.AppendLine("| Icon | Internal ID | Name | Description | Resources |");
+        sb.AppendLine("|:---:|:---|:---|:---|:---|");
 
         foreach (var build in BuildPiece.registeredPieces)
         {
@@ -41,39 +97,20 @@ public static class ReadMeBuilder
             var internalId = component.name;
             var unLocalizedName = component.m_name;
             var unLocalizedDescription = component.m_description;
-            var iconId = component.name + ".png";
-            var iconUrl =
-                "https://github.com/RustyMods/RavenwoodRome/blob/master/Icons/" +
-                iconId;
-            var resources = build.RequiredItems.Requirements
-                .Select(r => $"<li>{r.itemName} x {r.amount}</li>");
-            
+            var iconUrl = "https://raw.githubusercontent.com/RustyMods/RavenwoodRome/master/Icons/" + component.name + ".png";
+            var resources = string.Join(", ", build.RequiredItems.Requirements.Select(r => $"{r.itemName} x {r.amount}"));
+
             if (exportSprites)
             {
                 IconExport.ExportSprite(component.m_icon, path, component.name);
             }
 
-            sb.AppendLine("<table width=\"100%\">");
-            sb.AppendLine("  <tr>");
-            sb.AppendLine(
-                $"    <td rowspan=\"4\" width=\"128\" align=\"center\" valign=\"middle\"><img src=\"{iconUrl}\" width=\"128\" height=\"128\" alt=\"{internalId}\"></td>");
-            sb.AppendLine($"    <td><b>Internal ID:</b> <code>{internalId}</code></td>");
-            sb.AppendLine("  </tr>");
-            sb.AppendLine($"  <tr><td><b>Name:</b> {unLocalizedName}</td></tr>");
-            sb.AppendLine($"  <tr><td><b>Description:</b> {unLocalizedDescription}</td></tr>");
-            sb.AppendLine("  <tr><td><b>Resources:</b>");
-            sb.AppendLine("    <ul>");
-            foreach (var resource in resources)
-            {
-                sb.AppendLine($"      {resource}");
-            }
-
-            sb.AppendLine("    </ul>");
-            sb.AppendLine("  </td></tr>");
-            sb.AppendLine("</table>");
-            sb.AppendLine();
+            sb.AppendLine($"| ![{internalId}]({iconUrl}) | `{internalId}` | {Clean(unLocalizedName)} | {Clean(unLocalizedDescription)} | {Clean(resources)} |");
         }
 
         File.WriteAllText(Path.Combine(path, "README.md"), sb.ToString());
     }
+
+    // Pipes and line breaks would break a table row
+    private static string Clean(string text) => string.IsNullOrEmpty(text) ? "" : text.Replace("|", "\\|").Replace("\r", "").Replace("\n", " ");
 }

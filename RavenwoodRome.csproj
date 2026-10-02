@@ -160,6 +160,7 @@
         <Content Include="Icons\piece_amphora_1.png" />
         <Content Include="Icons\piece_amphora_2.png" />
         <Content Include="Icons\piece_amphora_3.png" />
+        <Content Include="Icons\piece_amphora_4.png" />
         <Content Include="Icons\piece_apple_green.png" />
         <Content Include="Icons\piece_apple_red.png" />
         <Content Include="Icons\piece_banner_rome_1.png" />
@@ -214,6 +215,8 @@
         <Content Include="Icons\piece_rome_door_2.png" />
         <Content Include="Icons\piece_rome_door_3.png" />
         <Content Include="Icons\piece_rome_door_4.png" />
+        <Content Include="Icons\piece_rome_door_5.png" />
+        <Content Include="Icons\piece_rome_door_6.png" />
         <Content Include="Icons\piece_rome_door_knob_lion.png" />
         <Content Include="Icons\piece_rome_firebowl.png" />
         <Content Include="Icons\piece_rome_fruit_stand.png" />
@@ -281,6 +284,7 @@
         <Content Include="Icons\piece_rome_rope_6.png" />
         <Content Include="Icons\piece_rome_scroll_1.png" />
         <Content Include="Icons\piece_rome_scroll_2.png" />
+        <Content Include="Icons\piece_rome_scroll_3.png" />
         <Content Include="Icons\piece_rome_senate.png" />
         <Content Include="Icons\piece_rome_shelf_1.png" />
         <Content Include="Icons\piece_rome_shelf_2.png" />

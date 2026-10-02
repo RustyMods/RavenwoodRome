@@ -11,6 +11,7 @@ public static partial class Assets
         ["piece_amphora_1"] = "Amphora",
         ["piece_amphora_2"] = "Amphora",    
         ["piece_amphora_3"] = "Amphora",
+        ["piece_amphora_4"] = "Amphora",
         ["piece_rome_pottery_1"] = "Pottery",
         ["piece_rome_pottery_2"] = "Pottery",
         ["piece_rome_pottery_3"] = "Pottery",

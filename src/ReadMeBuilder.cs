@@ -24,8 +24,26 @@ public static class ReadMeBuilder
         buildReadme = true;
         exportSprites = exportIcons;
     }
+
+    public static void ExportLocalization()
+    {
+        var path = Path.Combine(Paths.ConfigPath, "RavenwoodRome");
+        Directory.CreateDirectory(path);
+        StringBuilder sb = new StringBuilder();
+        
+        foreach (var build in BuildPiece.registeredPieces)
+        {
+            var name = build.Prefab.GetComponent<Piece>().m_name;
+            var localized = Localization.instance.Localize(name);
+            sb.AppendLine(name.Replace("$", string.Empty) + ": " + localized);    
+        }
+        
+        File.WriteAllText(Path.Combine(path, "English.yml"), sb.ToString());
+    }
+    
     public static void Build()
     {
+        // ExportLocalization();
         BuildAlt();
         // if (!buildReadme) return;
         //     

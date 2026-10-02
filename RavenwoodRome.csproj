@@ -359,6 +359,7 @@
         <Content Include="Icons\piece_sculpture_woman_gold.png" />
         <Content Include="Icons\piece_sculpture_woman_stone.png" />
         <Content Include="ILRepack.targets" />
+        <Content Include="JamesJonesTV.RavenwoodRome.cfg" />
         <Content Include="Libs\ServerSync.dll">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>

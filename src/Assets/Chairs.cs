@@ -20,7 +20,7 @@ public static partial class Assets
             var piece = build.Prefab.GetComponent<Piece>();
             var wnt = build.Prefab.GetComponent<WearNTear>();
             var chair = build.Prefab.GetComponent<Chair>();
-            chair.m_name = "$piece_" + build.Prefab.name.Replace(" ", "_");
+            chair.m_name = "$" + build.Prefab.name.Replace(" ", "_");
             piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_default");
             wnt.m_destroyedEffect = new EffectListRef("sfx_wood_destroyed", "vfx_SawDust");
             build.Name.English(name);

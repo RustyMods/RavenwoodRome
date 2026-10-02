@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.0.75f1
-CRC: 534933313
+CRC: 1798876149
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 464f56d9058f5e2dab9b6ba55844cb2f
+    Hash: 52b06ceffa15d1f890709f69f1c3f34a
   TypeTreeHash:
     serializedVersion: 2
     Hash: 907921aa808e6643dad61c60b4e85d3d
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 19f385e6fb9722cd6c310bfc526dcfbb
+    Hash: cea6c71b985053b6e91a2f51ada1eee5
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -160,6 +160,7 @@ Assets:
 - Assets/_Idyllic Rome/Pieces/Props/MetalProps/piece_rome_post_1.prefab
 - Assets/_Idyllic Rome/Pieces/Props/ClayProps/piece_rome_pottery_5.prefab
 - Assets/_Idyllic Rome/Pieces/Props/MetalProps/piece_rome_shield_2.prefab
+- Assets/_Idyllic Rome/Pieces/Props/Doors/piece_rome_door_5.prefab
 - Assets/_Idyllic Rome/Pieces/Props/ClayProps/piece_amphora_1.prefab
 - Assets/_Idyllic Rome/Pieces/Sculptures/piece_sculpture_putti_3_stone.prefab
 - Assets/_Idyllic Rome/Pieces/Props/ClayProps/piece_rome_pottery_6.prefab
@@ -169,6 +170,7 @@ Assets:
 - Assets/_Idyllic Rome/Pieces/Buildings/piece_rome_house_3.prefab
 - Assets/_Idyllic Rome/Pieces/Props/ClayProps/piece_rome_vase_6.prefab
 - Assets/_Idyllic Rome/Pieces/Props/Architecture/piece_rome_side_walk_1.prefab
+- Assets/_Idyllic Rome/Pieces/Props/Doors/piece_rome_door_6.prefab
 - Assets/_Idyllic Rome/Pieces/Nature/piece_rome_bush_1.prefab
 - Assets/_Idyllic Rome/Pieces/Props/Props/piece_rome_wood_fence_2.prefab
 - Assets/_Idyllic Rome/Pieces/Props/Architecture/piece_rome_podest_2.prefab

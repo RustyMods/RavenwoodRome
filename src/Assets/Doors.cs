@@ -13,8 +13,10 @@ public static partial class Assets
         ["piece_rome_door_2"] = "Roman Door",
         ["piece_rome_door_3"] = "Roman Door",
         ["piece_rome_door_4"] = "Roman Door",
+        ["piece_rome_door_5"] = "Roman Door",
+        ["piece_rome_door_6"] = "Roman Door",
     };
-    private static List<GameObject> doors = [];
+    private static readonly List<GameObject> doors = [];
 
     public static void LoadDoors()
     {

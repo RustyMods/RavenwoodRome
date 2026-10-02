@@ -50,7 +50,7 @@ public static partial class Assets
             {
                 container.m_openEffects = new EffectListRef("sfx_chest_open");
                 container.m_closeEffects = new EffectListRef("sfx_chest_close");
-                container.m_name = "$piece_" + build.Prefab.name.Replace(" ", "_");
+                container.m_name = "$" + build.Prefab.name.Replace(" ", "_");
             }
             
 

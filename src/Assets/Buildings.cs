@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using PieceManager;
+using UnityEngine;
 
 namespace RavenwoodRome;
 
@@ -155,6 +156,12 @@ public static partial class Assets
             build.RequiredItems.Add("BronzeNails", 20, true);
             build.Crafting.Set(CraftingTable.Workbench);
             build.Snapshot();
+
+            // foreach (var material in build.Prefab.GetComponentInChildren<MeshRenderer>().sharedMaterials)
+            // {
+            //     var dat = new MaterialData(material, MaterialReplacer.ShaderType.PieceShader);
+            //     dat.floatProps["_Metallic"] = 0f;
+            // }
             
             MaterialReplacer.RegisterGameObjectForShaderSwap(build.Prefab, MaterialReplacer.ShaderType.PieceShader);
         }

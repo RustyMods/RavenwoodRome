@@ -129,12 +129,14 @@ public static partial class Assets
             build.Crafting.Set(CraftingTable.Workbench);
             build.Snapshot();
             
-            var meshRenderer = build.Prefab.GetComponentInChildren<MeshRenderer>();
-            foreach (var material in meshRenderer.sharedMaterials)
-            {
-                var matData = new MaterialData(material, MaterialReplacer.ShaderType.PieceShader);
-                matData.floatProps["_Metallic"] = 1f;
-            }  
+            MaterialReplacer.RegisterGameObjectForShaderSwap(build.Prefab, MaterialReplacer.ShaderType.PieceShader);
+            
+            // var meshRenderer = build.Prefab.GetComponentInChildren<MeshRenderer>();
+            //
+            // foreach (var material in meshRenderer.sharedMaterials)
+            // {
+            //     var matData = new MaterialData(material, MaterialReplacer.ShaderType.PieceShader);
+            // }  
         }
 
         foreach (var kvp in stairs)

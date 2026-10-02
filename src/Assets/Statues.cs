@@ -53,6 +53,8 @@ public static partial class Assets
             build.RequiredItems.Add("Stone", 20, true);
             build.Crafting.Set(CraftingTable.Workbench);
             build.Snapshot();
+            
+            // MaterialReplacer.RegisterGameObjectForShaderSwap(build.Prefab, MaterialReplacer.ShaderType.RockShader);
 
             var meshRenderer = build.Prefab.GetComponentInChildren<MeshRenderer>();
             var materials = meshRenderer.sharedMaterials;
@@ -60,6 +62,9 @@ public static partial class Assets
             {
                 var matData = new MaterialData(material, MaterialReplacer.ShaderType.RockShader);
                 matData.floatProps["_MossAlpha"] = 0f;
+                // matData.floatProps["_MetalGloss"] = 1f;
+                // matData.floatProps["_Metallic"] = 0.75f;
+                
             }
         }
     }    

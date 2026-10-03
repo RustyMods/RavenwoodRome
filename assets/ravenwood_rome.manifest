@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.0.75f1
-CRC: 306903723
+CRC: 358146152
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a3b884889f8987053c3acede12192a41
+    Hash: d04b63759053952d212d95e98251ffcc
   TypeTreeHash:
     serializedVersion: 2
     Hash: 907921aa808e6643dad61c60b4e85d3d
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 78a782d13aac46731e3101dbaa1d4798
+    Hash: 62cd2a8c731f8603e9567174a8bfc1ce
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -107,9 +107,11 @@ Assets:
 - Assets/_Idyllic Rome/Pieces/Props/Baskets/piece_basket_berries.prefab
 - Assets/_Idyllic Rome/Pieces/Props/Banners/piece_banner_rome_4.prefab
 - Assets/_Idyllic Rome/Pieces/Props/MetalProps/piece_rome_vase_3.prefab
+- Assets/_Idyllic Rome/Pieces/Props/Architecture/piece_rome_wall_5.prefab
 - Assets/_Idyllic Rome/Pieces/Props/Architecture/piece_rome_wall_4.prefab
 - Assets/_Idyllic Rome/Pieces/Buildings/piece_rome_house_2.prefab
 - Assets/_Idyllic Rome/Pieces/Props/Baskets/piece_basket_fruit.prefab
+- Assets/_Idyllic Rome/Pieces/Props/Architecture/piece_rome_wall_7.prefab
 - Assets/_Idyllic Rome/Pieces/Nature/piece_rome_rock_5.prefab
 - Assets/_Idyllic Rome/Pieces/Props/Props/piece_rome_cloth_folded_1.prefab
 - Assets/_Idyllic Rome/Pieces/Props/Architecture/piece_rome_column_6.prefab
@@ -218,6 +220,7 @@ Assets:
 - Assets/_Idyllic Rome/Pieces/Sculptures/piece_sculpture_man_stone.prefab
 - Assets/_Idyllic Rome/Pieces/Nature/piece_rome_tree_5.prefab
 - Assets/_Idyllic Rome/Pieces/Props/Props/piece_rome_table_5.prefab
+- Assets/_Idyllic Rome/Pieces/Props/Architecture/piece_rome_wall_6.prefab
 - Assets/_Idyllic Rome/Pieces/Props/Props/piece_rome_bed_1.prefab
 - Assets/_Idyllic Rome/Pieces/Sculptures/piece_sculpture_putti_1_gold.prefab
 - Assets/_Idyllic Rome/Pieces/Props/Architecture/piece_rome_column_7.prefab

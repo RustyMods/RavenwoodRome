@@ -27,7 +27,7 @@ public static partial class Assets
             wnt.m_hitEffect = new EffectListRef("sfx_hit");
             wnt.m_destroyedEffect = new EffectListRef("sfx_wood_hit");
             build.Name.English(name);
-            build.Category.Set("Ravenwood Rome");
+            build.Category.Set("Ravenwood");
             build.Usage.Set(Piece.UsageTagFlags.Decor);
             build.RequiredItems.Add("Wood", 1, true);
             build.Crafting.Set(CraftingTable.Workbench);

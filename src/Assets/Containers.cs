@@ -31,7 +31,7 @@ public static partial class Assets
             container.m_closeEffects = new EffectListRef("sfx_chest_close");
             container.m_name = "$" + build.Prefab.name.Replace(" ", "_");
             build.Name.English(name);
-            build.Category.Set("Ravenwood Rome");
+            build.Category.Set("Ravenwood");
             build.Usage.Set(Piece.UsageTagFlags.Decor);
             build.RequiredItems.Add("FineWood", 10, true);
             build.Crafting.Set(CraftingTable.Workbench);

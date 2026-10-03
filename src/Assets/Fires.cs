@@ -25,7 +25,7 @@ public static partial class Assets
             piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_default");
             wnt.m_destroyedEffect = new EffectListRef("sfx_build_hammer_default", "fx_candle_off");
             build.Name.English(name);
-            build.Category.Set("Ravenwood Rome");
+            build.Category.Set("Ravenwood");
             build.Usage.Set(Piece.UsageTagFlags.Decor);
             build.RequiredItems.Add("FineWood", 10, true);
             build.RequiredItems.Add("Bronze", 2, true);

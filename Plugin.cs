@@ -6,6 +6,7 @@ using BepInEx.Logging;
 using HarmonyLib;
 using PieceManager;
 using ServerSync;
+using UnityEngine;
 
 namespace RavenwoodRome;
 
@@ -36,6 +37,9 @@ public class RavenwoodRomePlugin : BaseUnityPlugin
 
     private static ConfigEntry<Toggle> _serverConfigLocked = null!;
 
+    private static GameObject root;
+    public static Transform rt => root.transform;
+
     public void Awake()
     {
         instance = this;
@@ -44,6 +48,10 @@ public class RavenwoodRomePlugin : BaseUnityPlugin
         _ = ConfigSync.AddLockingConfigEntry(_serverConfigLocked);
 
         // ReadMeBuilder.Init(true);
+
+        root = new GameObject("root");
+        DontDestroyOnLoad(root);
+        root.SetActive(false);
         
         Assets.LoadBuildings();
         Assets.LoadSculptures();

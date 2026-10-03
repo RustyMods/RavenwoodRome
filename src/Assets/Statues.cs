@@ -36,6 +36,7 @@ public static partial class Assets
     
     public static void LoadSculptures()
     {
+        Dictionary<string, GameObject> largeVersions = new();
         foreach (var kvp in sculptures)
         {
             var id = kvp.Key;
@@ -48,7 +49,7 @@ public static partial class Assets
             wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
             wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed");
             build.Name.English(name);
-            build.Category.Set("Ravenwood Rome");
+            build.Category.Set("Ravenwood");
             build.Usage.Set(Piece.UsageTagFlags.Decor);
             build.RequiredItems.Add("Stone", 20, true);
             build.Crafting.Set(CraftingTable.Workbench);
@@ -64,8 +65,34 @@ public static partial class Assets
                 matData.floatProps["_MossAlpha"] = 0f;
                 // matData.floatProps["_MetalGloss"] = 1f;
                 // matData.floatProps["_Metallic"] = 0.75f;
-                
             }
+
+            var large = UnityEngine.Object.Instantiate(build.Prefab, RavenwoodRomePlugin.rt);
+            large.name = build.Prefab.name + "_large";
+            for (int i = 0; i < large.transform.childCount; ++i)
+            {
+                var child = large.transform.GetChild(i);
+                child.localScale *= 2;
+            }
+            largeVersions[name] = large;
+        }
+
+        foreach (var kvp in largeVersions)
+        {
+            var name = "Large " + kvp.Key;
+            BuildPiece build = new BuildPiece(kvp.Value);
+            var piece = build.Prefab.GetComponent<Piece>();
+            piece.m_name += "_large";
+            var wnt = build.Prefab.GetComponent<WearNTear>();
+            piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_stone");
+            wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
+            wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed_large");
+            build.Name.English(name);
+            build.Category.Set("Ravenwood");
+            build.Usage.Set(Piece.UsageTagFlags.Decor);
+            build.RequiredItems.Add("Stone", 40, true);
+            build.Crafting.Set(CraftingTable.Workbench);
+            build.Snapshot();
         }
     }    
 }

@@ -43,8 +43,21 @@ public static partial class Assets
         piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_stone");
         wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
         wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed_large");
+        wnt.m_damages = new HitData.DamageModifiers
+        {
+            m_blunt = HitData.DamageModifier.Immune,
+            m_slash = HitData.DamageModifier.Immune,
+            m_pierce = HitData.DamageModifier.Immune,
+            m_pickaxe = HitData.DamageModifier.Immune,
+            m_chop = HitData.DamageModifier.Immune,
+            m_fire = HitData.DamageModifier.Immune,
+            m_frost = HitData.DamageModifier.Immune,
+            m_lightning = HitData.DamageModifier.Immune,
+            m_poison = HitData.DamageModifier.Immune,
+            m_spirit = HitData.DamageModifier.Immune
+        };
         build.Name.English("Senate");
-        build.Category.Set("Ravenwood Rome");
+        build.Category.Set("Ravenwood");
         build.Usage.Set(Piece.UsageTagFlags.Architecture);
         build.RequiredItems.Add("Coins", 1500, true);
         build.RequiredItems.Add("Stone", 500, true);
@@ -62,8 +75,21 @@ public static partial class Assets
         piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_stone");
         wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
         wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed_large");
+        wnt.m_damages = new HitData.DamageModifiers
+        {
+            m_blunt = HitData.DamageModifier.Immune,
+            m_slash = HitData.DamageModifier.Immune,
+            m_pierce = HitData.DamageModifier.Immune,
+            m_pickaxe = HitData.DamageModifier.Immune,
+            m_chop = HitData.DamageModifier.Immune,
+            m_fire = HitData.DamageModifier.Immune,
+            m_frost = HitData.DamageModifier.Immune,
+            m_lightning = HitData.DamageModifier.Immune,
+            m_poison = HitData.DamageModifier.Immune,
+            m_spirit = HitData.DamageModifier.Immune
+        };
         build.Name.English("Large Temple");
-        build.Category.Set("Ravenwood Rome");
+        build.Category.Set("Ravenwood");
         build.Usage.Set(Piece.UsageTagFlags.Architecture);
         build.RequiredItems.Add("Coins", 1000, true);
         build.RequiredItems.Add("Stone", 400, true);
@@ -81,8 +107,21 @@ public static partial class Assets
         piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_stone");
         wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
         wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed_large");
+        wnt.m_damages = new HitData.DamageModifiers
+        {
+            m_blunt = HitData.DamageModifier.Immune,
+            m_slash = HitData.DamageModifier.Immune,
+            m_pierce = HitData.DamageModifier.Immune,
+            m_pickaxe = HitData.DamageModifier.Immune,
+            m_chop = HitData.DamageModifier.Immune,
+            m_fire = HitData.DamageModifier.Immune,
+            m_frost = HitData.DamageModifier.Immune,
+            m_lightning = HitData.DamageModifier.Immune,
+            m_poison = HitData.DamageModifier.Immune,
+            m_spirit = HitData.DamageModifier.Immune
+        };
         build.Name.English("Small Temple");
-        build.Category.Set("Ravenwood Rome");
+        build.Category.Set("Ravenwood");
         build.Usage.Set(Piece.UsageTagFlags.Architecture);
         build.RequiredItems.Add("Coins", 500, true);
         build.RequiredItems.Add("Stone", 250, true);
@@ -100,8 +139,21 @@ public static partial class Assets
         piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_stone");
         wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
         wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed_large");
+        wnt.m_damages = new HitData.DamageModifiers
+        {
+            m_blunt = HitData.DamageModifier.Immune,
+            m_slash = HitData.DamageModifier.Immune,
+            m_pierce = HitData.DamageModifier.Immune,
+            m_pickaxe = HitData.DamageModifier.Immune,
+            m_chop = HitData.DamageModifier.Immune,
+            m_fire = HitData.DamageModifier.Immune,
+            m_frost = HitData.DamageModifier.Immune,
+            m_lightning = HitData.DamageModifier.Immune,
+            m_poison = HitData.DamageModifier.Immune,
+            m_spirit = HitData.DamageModifier.Immune
+        };
         build.Name.English("Amphitheatre");
-        build.Category.Set("Ravenwood Rome");
+        build.Category.Set("Ravenwood");
         build.Usage.Set(Piece.UsageTagFlags.Architecture);
         build.RequiredItems.Add("Coins", 4000, true);
         build.RequiredItems.Add("Stone", 1000, true);
@@ -118,8 +170,21 @@ public static partial class Assets
         piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_stone");
         wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
         wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed_large");
+        wnt.m_damages = new HitData.DamageModifiers
+        {
+            m_blunt = HitData.DamageModifier.Immune,
+            m_slash = HitData.DamageModifier.Immune,
+            m_pierce = HitData.DamageModifier.Immune,
+            m_pickaxe = HitData.DamageModifier.Immune,
+            m_chop = HitData.DamageModifier.Immune,
+            m_fire = HitData.DamageModifier.Immune,
+            m_frost = HitData.DamageModifier.Immune,
+            m_lightning = HitData.DamageModifier.Immune,
+            m_poison = HitData.DamageModifier.Immune,
+            m_spirit = HitData.DamageModifier.Immune
+        };
         build.Name.English("Triumphant Arch");
-        build.Category.Set("Ravenwood Rome");
+        build.Category.Set("Ravenwood");
         build.Usage.Set(Piece.UsageTagFlags.Architecture);
         build.RequiredItems.Add("FineWood", 200, true);
         build.RequiredItems.Add("Stone", 200, true);
@@ -147,8 +212,21 @@ public static partial class Assets
             piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_stone");
             wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
             wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed_large");
+            wnt.m_damages = new HitData.DamageModifiers
+            {
+                m_blunt = HitData.DamageModifier.Immune,
+                m_slash = HitData.DamageModifier.Immune,
+                m_pierce = HitData.DamageModifier.Immune,
+                m_pickaxe = HitData.DamageModifier.Immune,
+                m_chop = HitData.DamageModifier.Immune,
+                m_fire = HitData.DamageModifier.Immune,
+                m_frost = HitData.DamageModifier.Immune,
+                m_lightning = HitData.DamageModifier.Immune,
+                m_poison = HitData.DamageModifier.Immune,
+                m_spirit = HitData.DamageModifier.Immune
+            };
             build.Name.English(name);
-            build.Category.Set("Ravenwood Rome");
+            build.Category.Set("Ravenwood");
             build.Usage.Set(Piece.UsageTagFlags.Architecture);
             build.RequiredItems.Add("FineWood", 200, true);
             build.RequiredItems.Add("Stone", 200, true);

@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.0.75f1
-CRC: 358146152
+CRC: 1685601288
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d04b63759053952d212d95e98251ffcc
+    Hash: d06958705ad373f8fe2d518f7d4693f6
   TypeTreeHash:
     serializedVersion: 2
     Hash: 907921aa808e6643dad61c60b4e85d3d
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 62cd2a8c731f8603e9567174a8bfc1ce
+    Hash: cf6c28d713b26973339d981196622493
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -126,6 +126,7 @@ Assets:
 - Assets/_Idyllic Rome/Pieces/Props/ClayProps/piece_rome_pottery_1.prefab
 - Assets/_Idyllic Rome/Pieces/Props/Props/piece_rome_table_1.prefab
 - Assets/_Idyllic Rome/Pieces/Props/Props/piece_rome_scroll_1.prefab
+- Assets/_Idyllic Rome/Pieces/Props/Architecture/piece_rome_wall_8.prefab
 - Assets/_Idyllic Rome/Pieces/Props/ClayProps/piece_rome_pottery_7.prefab
 - Assets/_Idyllic Rome/Pieces/Props/FireProps/piece_rome_firebowl.prefab
 - Assets/_Idyllic Rome/Pieces/Props/Props/piece_rome_table_2.prefab

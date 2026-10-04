@@ -38,6 +38,7 @@ public static partial class Assets
         ["piece_rome_wall_5"] = "Roman Wall",
         ["piece_rome_wall_6"] = "Roman Wall",
         ["piece_rome_wall_7"] = "Roman Wall",
+        ["piece_rome_wall_8"] = "Fresco Wall",
     };
 
     private static Dictionary<string, string> pillars = new()
@@ -98,6 +99,7 @@ public static partial class Assets
             m_poison = HitData.DamageModifier.Immune,
             m_spirit = HitData.DamageModifier.Immune
         };
+        wnt.m_materialType = WearNTear.MaterialType.Stone;
         build.Name.English("Large Platform");
         build.Category.Set("Ravenwood");
         build.Usage.Set(Piece.UsageTagFlags.Architecture);
@@ -178,6 +180,20 @@ public static partial class Assets
             piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_stone");
             wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_RockHit");
             wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed");
+            wnt.m_damages = new HitData.DamageModifiers
+            {
+                m_blunt = HitData.DamageModifier.Immune,
+                m_slash = HitData.DamageModifier.Immune,
+                m_pierce = HitData.DamageModifier.Immune,
+                m_pickaxe = HitData.DamageModifier.Immune,
+                m_chop = HitData.DamageModifier.Immune,
+                m_fire = HitData.DamageModifier.Immune,
+                m_frost = HitData.DamageModifier.Immune,
+                m_lightning = HitData.DamageModifier.Immune,
+                m_poison = HitData.DamageModifier.Immune,
+                m_spirit = HitData.DamageModifier.Immune
+            };
+            
             build.Name.English(name);
             build.Category.Set("Ravenwood");
             build.Usage.Set(Piece.UsageTagFlags.Architecture);

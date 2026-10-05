@@ -9,12 +9,12 @@ public static partial class Assets
 {
     private static Dictionary<string, string> candles = new()
     {
-        ["piece_rome_candle_1"] = "Roman Candle",
-        ["piece_rome_candle_2"] = "Roman Candle",
-        ["piece_rome_candle_3"] = "Roman Candle",
-        ["piece_rome_candle_4"] = "Roman Candle",
-        ["piece_rome_candle_5"] = "Roman Candle",
-        ["piece_rome_candle_6"] = "Roman Candle",
+        ["piece_rome_candle_1"] = "Roman Candle 1",
+        ["piece_rome_candle_2"] = "Roman Candle 2",
+        ["piece_rome_candle_3"] = "Roman Candle 3",
+        ["piece_rome_candle_4"] = "Roman Candle 4",
+        ["piece_rome_candle_5"] = "Roman Candle 5",
+        ["piece_rome_candle_6"] = "Roman Candle 6",
     };
     public static void LoadCandles()
     {

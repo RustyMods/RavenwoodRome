@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.0.75f1
-CRC: 1685601288
+CRC: 3494191242
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d06958705ad373f8fe2d518f7d4693f6
+    Hash: 950e9c8a55601ee3ad100f6716736d5a
   TypeTreeHash:
     serializedVersion: 2
     Hash: 907921aa808e6643dad61c60b4e85d3d
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: cf6c28d713b26973339d981196622493
+    Hash: a65b7bf8072c2e4b09bdd18b8861e8f3
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -116,6 +116,7 @@ Assets:
 - Assets/_Idyllic Rome/Pieces/Props/Props/piece_rome_cloth_folded_1.prefab
 - Assets/_Idyllic Rome/Pieces/Props/Architecture/piece_rome_column_6.prefab
 - Assets/_Idyllic Rome/Pieces/Props/Props/piece_apple_red.prefab
+- Assets/_Idyllic Rome/Pieces/Props/Architecture/piece_rome_wall_9.prefab
 - Assets/_Idyllic Rome/Pieces/Sculptures/piece_sculpture_woman_gold.prefab
 - Assets/_Idyllic Rome/Pieces/Props/Props/piece_rome_hanging_fruit_1.prefab
 - Assets/_Idyllic Rome/Pieces/Props/Candles/piece_rome_candle_4.prefab

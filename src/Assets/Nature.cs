@@ -18,25 +18,25 @@ public static partial class Assets
 
     private static Dictionary<string, string> rocks = new()
     {
-        ["piece_rome_rock_1"] = "Roman Rock",
-        ["piece_rome_rock_2"] = "Roman Rock",
-        ["piece_rome_rock_3"] = "Roman Rock",
-        ["piece_rome_rock_4"] = "Roman Rock",
-        ["piece_rome_rock_5"] = "Roman Rock",
-        ["piece_rome_rock_6"] = "Roman Rock",
-        ["piece_rome_rock_7"] = "Roman Rock",
-        ["piece_rome_rock_8"] = "Roman Rock",
-        ["piece_rome_rock_9"] = "Roman Rock",
-        ["piece_rome_rock_10"] = "Roman Rock",
+        ["piece_rome_rock_1"] = "Roman Rock 1",
+        ["piece_rome_rock_2"] = "Roman Rock 2",
+        ["piece_rome_rock_3"] = "Roman Rock 3",
+        ["piece_rome_rock_4"] = "Roman Rock 4",
+        ["piece_rome_rock_5"] = "Roman Rock 5",
+        ["piece_rome_rock_6"] = "Roman Rock 6",
+        ["piece_rome_rock_7"] = "Roman Rock 7",
+        ["piece_rome_rock_8"] = "Roman Rock 8",
+        ["piece_rome_rock_9"] = "Roman Rock 9",
+        ["piece_rome_rock_10"] = "Roman Rock 10",
     };
 
     private static Dictionary<string, string> trees = new()
     {
-        ["piece_rome_tree_1"] = "Roman Tree",
-        ["piece_rome_tree_2"] = "Roman Tree",
-        ["piece_rome_tree_3"] = "Roman Tree",
-        ["piece_rome_tree_4"] = "Roman Tree",
-        ["piece_rome_tree_5"] = "Roman Tree",
+        ["piece_rome_tree_1"] = "Roman Tree 1",
+        ["piece_rome_tree_2"] = "Roman Tree 2",
+        ["piece_rome_tree_3"] = "Roman Tree 3",
+        ["piece_rome_tree_4"] = "Roman Tree 4",
+        ["piece_rome_tree_5"] = "Roman Tree 5",
     };
 
     public static void LoadNature()

@@ -3,94 +3,118 @@ piece_rome_large_temple: Large Temple
 piece_rome_small_temple: Small Temple
 piece_rome_senate: Senate
 piece_rome_arch_build: Triumphant Arch
-piece_rome_house_1: Roman House
-piece_rome_house_2: Roman House
-piece_rome_house_3: Roman House
-piece_rome_house_4: Roman House
-piece_rome_house_5: Roman House
-piece_rome_house_6: Roman House
-piece_rome_house_7: Roman House
-piece_rome_house_8: Roman House
-piece_rome_house_9: Roman House
-piece_rome_house_10: Roman House
-piece_rome_house_11: Roman House
-piece_rome_house_12: Roman House
-piece_rome_house_13: Roman House
-piece_rome_house_14: Roman House
-piece_rome_house_15: Roman House
-piece_rome_house_16: Roman House
-piece_rome_house_17: Roman House
-piece_rome_house_18: Roman House
-piece_rome_house_19: Roman House
-piece_rome_house_20: Roman House
-piece_sculpture_athena_gold: Athena
-piece_sculpture_athena_stone: Athena
-piece_sculpture_augustus_gold: Augustus
-piece_sculpture_augustus_stone: Augustus
-piece_sculpture_goddess_gold: Goddess
-piece_sculpture_goddess_stone: Goddess
-piece_sculpture_man_gold: Man
-piece_sculpture_man_stone: Man
-piece_sculpture_midathrias_gold: Midathrias
-piece_sculpture_midathrias_stone: Midathrias
-piece_sculpture_putti_1_gold: Putti
-piece_sculpture_putti_1_stone: Putti
-piece_sculpture_putti_2_gold: Putti
-piece_sculpture_putti_2_stone: Putti
-piece_sculpture_putti_3_gold: Putti
-piece_sculpture_putti_3_stone: Putti
-piece_sculpture_putti_4_gold: Putti
-piece_sculpture_putti_4_stone: Putti
-piece_sculpture_putti_5_gold: Putti
-piece_sculpture_putti_5_stone: Putti
-piece_sculpture_soldier_gold: Soldier
-piece_sculpture_soldier_stone: Soldier
-piece_sculpture_woman_gold: Woman
-piece_sculpture_woman_stone: Woman
-piece_banner_rome_1: Roman Banner
-piece_banner_rome_2: Roman Banner
-piece_banner_rome_3: Roman Banner
-piece_banner_rome_4: Roman Banner
-piece_banner_rome_5: Roman Banner
-piece_banner_rome_6: Roman Banner
+piece_rome_house_1: Roman House 1
+piece_rome_house_2: Roman House 2
+piece_rome_house_3: Roman House 3
+piece_rome_house_4: Roman House 4
+piece_rome_house_5: Roman House 5
+piece_rome_house_6: Roman House 6
+piece_rome_house_7: Roman House 7
+piece_rome_house_8: Roman House 8
+piece_rome_house_9: Roman House 9
+piece_rome_house_10: Roman House 10
+piece_rome_house_11: Roman House 11
+piece_rome_house_12: Roman House 12
+piece_rome_house_13: Roman House 13
+piece_rome_house_14: Roman House 14
+piece_rome_house_15: Roman House 15
+piece_rome_house_16: Roman House 16
+piece_rome_house_17: Roman House 17
+piece_rome_house_18: Roman House 18
+piece_rome_house_19: Roman House 19
+piece_rome_house_20: Roman House 20
+piece_sculpture_athena_gold: Athena 1
+piece_sculpture_athena_stone: Athena 2
+piece_sculpture_augustus_gold: Augustus 1
+piece_sculpture_augustus_stone: Augustus 2
+piece_sculpture_goddess_gold: Goddess 1
+piece_sculpture_goddess_stone: Goddess 2
+piece_sculpture_man_gold: Man 1
+piece_sculpture_man_stone: Man 2
+piece_sculpture_midathrias_gold: Midathrias 1
+piece_sculpture_midathrias_stone: Midathrias 2
+piece_sculpture_putti_1_gold: Putti 1
+piece_sculpture_putti_1_stone: Putti 2
+piece_sculpture_putti_2_gold: Putti 3
+piece_sculpture_putti_2_stone: Putti 4
+piece_sculpture_putti_3_gold: Putti 5
+piece_sculpture_putti_3_stone: Putti 6
+piece_sculpture_putti_4_gold: Putti 7
+piece_sculpture_putti_4_stone: Putti 8
+piece_sculpture_putti_5_gold: Putti 9
+piece_sculpture_putti_5_stone: Putti 10
+piece_sculpture_soldier_gold: Soldier 1
+piece_sculpture_soldier_stone: Soldier 2
+piece_sculpture_woman_gold: Woman 1
+piece_sculpture_woman_stone: Woman 2
+piece_sculpture_athena_gold_large: Large Athena 1
+piece_sculpture_athena_stone_large: Large Athena 2
+piece_sculpture_augustus_gold_large: Large Augustus 1
+piece_sculpture_augustus_stone_large: Large Augustus 2
+piece_sculpture_goddess_gold_large: Large Goddess 1
+piece_sculpture_goddess_stone_large: Large Goddess 2
+piece_sculpture_man_gold_large: Large Man 1
+piece_sculpture_man_stone_large: Large Man 2
+piece_sculpture_midathrias_gold_large: Large Midathrias 1
+piece_sculpture_midathrias_stone_large: Large Midathrias 2
+piece_sculpture_putti_1_gold_large: Large Putti 1
+piece_sculpture_putti_1_stone_large: Large Putti 2
+piece_sculpture_putti_2_gold_large: Large Putti 3
+piece_sculpture_putti_2_stone_large: Large Putti 4
+piece_sculpture_putti_3_gold_large: Large Putti 5
+piece_sculpture_putti_3_stone_large: Large Putti 6
+piece_sculpture_putti_4_gold_large: Large Putti 7
+piece_sculpture_putti_4_stone_large: Large Putti 8
+piece_sculpture_putti_5_gold_large: Large Putti 9
+piece_sculpture_putti_5_stone_large: Large Putti 10
+piece_sculpture_soldier_gold_large: Large Soldier 1
+piece_sculpture_soldier_stone_large: Large Soldier 2
+piece_sculpture_woman_gold_large: Large Woman 1
+piece_sculpture_woman_stone_large: Large Woman 2
+piece_banner_rome_1: Roman Banner 1
+piece_banner_rome_2: Roman Banner 2
+piece_banner_rome_3: Roman Banner 3
+piece_banner_rome_4: Roman Banner 4
+piece_banner_rome_5: Roman Banner 5
+piece_banner_rome_6: Roman Banner 6
 piece_basket_berries: Berry Basket
 piece_basket_empty: Basket
 piece_basket_fruit: Fruit Basket
 piece_basket_grains: Grains Basket
-piece_rome_candle_1: Roman Candle
-piece_rome_candle_2: Roman Candle
-piece_rome_candle_3: Roman Candle
-piece_rome_candle_4: Roman Candle
-piece_rome_candle_5: Roman Candle
-piece_rome_candle_6: Roman Candle
-piece_rome_chair_1: Roman Chair
-piece_rome_chair_2: Roman Chair
-piece_rome_barrel_1: Roman Barrel
-piece_rome_barrel_2: Roman Barrel
-piece_rome_small_crate_1: Roman Crate
-piece_rome_small_crate_2: Roman Crate
-piece_rome_small_crate_3: Roman Crate
-piece_rome_small_crate_4: Roman Crate
-piece_rome_door_1: Roman Door
-piece_rome_door_2: Roman Door
-piece_rome_door_3: Roman Door
-piece_rome_door_4: Roman Door
-piece_rome_door_5: Roman Door
-piece_rome_door_6: Roman Door
+piece_rome_candle_1: Roman Candle 1
+piece_rome_candle_2: Roman Candle 2
+piece_rome_candle_3: Roman Candle 3
+piece_rome_candle_4: Roman Candle 4
+piece_rome_candle_5: Roman Candle 5
+piece_rome_candle_6: Roman Candle 6
+piece_rome_chair_1: Roman Chair 1
+piece_rome_chair_2: Roman Chair 2
+piece_rome_barrel_1: Roman Barrel 1
+piece_rome_barrel_2: Roman Barrel 2
+piece_rome_small_crate_1: Roman Crate 1
+piece_rome_small_crate_2: Roman Crate 2
+piece_rome_small_crate_3: Roman Crate 3
+piece_rome_small_crate_4: Roman Crate 4
+piece_rome_door_1: Roman Door 1
+piece_rome_door_2: Roman Door 2
+piece_rome_door_3: Roman Door 3
+piece_rome_door_4: Roman Door 4
+piece_rome_door_5: Roman Door 5
+piece_rome_door_6: Roman Door 6
 piece_rome_firebowl: Roman Fire Bowl
 piece_rome_light_post: Roman Street Lamp
 piece_rome_bronze_pot: Bronze Pot
 piece_rome_door_knob_lion: Door Knob
 piece_rome_post_1: Roman Post
-piece_rome_shield_1: Roman Shield
-piece_rome_shield_2: Roman Shield
+piece_rome_shield_1: Roman Shield 1
+piece_rome_shield_2: Roman Shield 2
 piece_rome_spear_1: Roman Spear
 piece_rome_sword_1: Roman Sword
-piece_rome_vase_1: Metal Vase
-piece_rome_vase_2: Metal Vase
-piece_rome_vase_3: Metal Vase
-piece_rome_weapon_stand_2: Roman Weapon Stand
-piece_rome_weapon_stand_3: Roman Weapon Stand
+piece_rome_vase_1: Metal Vase 1
+piece_rome_vase_2: Metal Vase 2
+piece_rome_vase_3: Metal Vase 3
+piece_rome_weapon_stand_2: Roman Weapon Stand 1
+piece_rome_weapon_stand_3: Roman Weapon Stand 2
 piece_apple_green: Roman Apple
 piece_apple_red: Roman Apple
 piece_rome_book_1: Roman Book
@@ -106,18 +130,18 @@ piece_rome_hanging_cloth_3: Roman Hanging Cloth
 piece_rome_hanging_fruit_1: Roman Hanging Fruits
 piece_rome_hanging_fruit_2: Roman Hanging Fruits
 piece_rome_peach: Roman Peach
-piece_rome_rope_1: Roman Rope
-piece_rome_rope_2: Roman Rope
-piece_rome_rope_3: Roman Rope
-piece_rome_rope_4: Roman Rope
-piece_rome_rope_5: Roman Rope
-piece_rome_rope_6: Roman Rope
-piece_rome_scroll_1: Roman Scroll
-piece_rome_scroll_2: Roman Scroll
-piece_rome_scroll_3: Roman Scroll
+piece_rome_rope_1: Roman Rope 1
+piece_rome_rope_2: Roman Rope 2
+piece_rome_rope_3: Roman Rope 3
+piece_rome_rope_4: Roman Rope 4
+piece_rome_rope_5: Roman Rope 5
+piece_rome_rope_6: Roman Rope 6
+piece_rome_scroll_1: Roman Scroll 1
+piece_rome_scroll_2: Roman Scroll 2
+piece_rome_scroll_3: Roman Scroll 3
 piece_rome_weapon_stand_1: Roman Weapon Stand
-piece_rome_window_cover_1: Roman Window Cover
-piece_rome_window_cover_2: Roman Window Cover
+piece_rome_window_cover_1: Roman Window Cover 1
+piece_rome_window_cover_2: Roman Window Cover 2
 piece_rome_shelf_1: Roman Shelf
 piece_rome_shelf_2: Roman Shelf
 piece_rome_shelf_3: Roman Shelf
@@ -135,67 +159,72 @@ piece_rome_wood_fence_2: Roman Fence
 piece_rome_bed_1: Roman Bed
 piece_large_platform_preset: Large Platform
 piece_rome_marble_fence: Marble Fence
-piece_rome_podest_1: Pedestal
-piece_rome_podest_2: Pedestal
-piece_rome_side_walk_1: Side Walk
-piece_rome_side_walk_2: Side Walk
+piece_rome_podest_1: Pedestal 1
+piece_rome_podest_2: Pedestal 2
 piece_rome_stone_fence: Stone Fence
-piece_rome_wall_1: Roman Wall
-piece_rome_wall_2: Roman Wall
-piece_rome_wall_3: Roman Wall
+piece_rome_side_walk_1: Side Walk
+piece_rome_side_walk_2: Long Side Walk
+piece_rome_wall_1: Roman Wall 1
+piece_rome_wall_2: Roman Wall 2
+piece_rome_wall_3: Roman Wall 3
+piece_rome_wall_5: Roman Wall 4
+piece_rome_wall_6: Large Roman Wall
+piece_rome_wall_7: Large Roman Wall
+piece_rome_wall_8: Fresco Wall Cap
+piece_rome_wall_9: Fresco Wall 2
 piece_rome_wall_4: Fesco Wall
-piece_rome_column_1: Pillar
-piece_rome_column_2: Pillar
-piece_rome_column_3: Pillar
-piece_rome_column_4: Pillar
-piece_rome_column_5: Pillar
-piece_rome_column_6: Pillar
-piece_rome_column_7: Pillar
-piece_rome_column_8: Pillar
-piece_rome_column_9: Pillar
-piece_rome_stair_1: Roman Stairs
-piece_rome_stair_2: Roman Stairs
-piece_rome_stair_3: Roman Stairs
-piece_market_stand_1: Market Stand
-piece_market_stand_2: Market Stand
-piece_market_stand_3: Market Stand
-piece_market_stand_4: Market Stand
+piece_rome_column_1: Pillar 1
+piece_rome_column_2: Pillar 2
+piece_rome_column_3: Pillar 3
+piece_rome_column_4: Pillar 4
+piece_rome_column_5: Pillar 5
+piece_rome_column_6: Pillar 6
+piece_rome_column_7: Pillar 7
+piece_rome_column_8: Pillar 8
+piece_rome_column_9: Pillar 9
+piece_rome_stair_1: Roman Stairs 1
+piece_rome_stair_2: Roman Stairs 2
+piece_rome_stair_3: Roman Stairs 3
+piece_market_stand_1: Market Stand 1
+piece_market_stand_2: Market Stand 2
+piece_market_stand_3: Market Stand 3
+piece_market_stand_4: Market Stand 4
 piece_rome_cloth_stand: Cloth Stand
 piece_rome_fruit_stand: Fruit Stand
 piece_rome_bush_1: Roman Bush
 piece_rome_grass: Roman Grass
-piece_rome_rock_1: Roman Rock
-piece_rome_rock_2: Roman Rock
-piece_rome_rock_3: Roman Rock
-piece_rome_rock_4: Roman Rock
-piece_rome_rock_5: Roman Rock
-piece_rome_rock_6: Roman Rock
-piece_rome_rock_7: Roman Rock
-piece_rome_rock_8: Roman Rock
-piece_rome_rock_9: Roman Rock
-piece_rome_rock_10: Roman Rock
-piece_rome_tree_1: Roman Tree
-piece_rome_tree_2: Roman Tree
-piece_rome_tree_3: Roman Tree
-piece_rome_tree_4: Roman Tree
-piece_rome_tree_5: Roman Tree
-piece_amphora_1: Amphora
-piece_amphora_2: Amphora
-piece_amphora_3: Amphora
-piece_amphora_4: Amphora
-piece_rome_pottery_1: Pottery
-piece_rome_pottery_2: Pottery
-piece_rome_pottery_3: Pottery
-piece_rome_pottery_4: Pottery
-piece_rome_pottery_5: Pottery
-piece_rome_pottery_6: Pottery
-piece_rome_pottery_7: Pottery
-piece_rome_pottery_8: Pottery
-piece_rome_pottery_9: Pottery
-piece_rome_pottery_10: Pottery
-piece_rome_pottery_11: Pottery
-piece_rome_pottery_12: Pottery
-piece_rome_pottery_13: Pottery
-piece_rome_vase_4: Roman Vase
-piece_rome_vase_5: Roman Vase
-piece_rome_vase_6: Roman Vase
+piece_rome_rock_1: Roman Rock 1
+piece_rome_rock_2: Roman Rock 2
+piece_rome_rock_3: Roman Rock 3
+piece_rome_rock_4: Roman Rock 4
+piece_rome_rock_5: Roman Rock 5
+piece_rome_rock_6: Roman Rock 6
+piece_rome_rock_7: Roman Rock 7
+piece_rome_rock_8: Roman Rock 8
+piece_rome_rock_9: Roman Rock 9
+piece_rome_rock_10: Roman Rock 10
+piece_rome_tree_1: Roman Tree 1
+piece_rome_tree_2: Roman Tree 2
+piece_rome_tree_3: Roman Tree 3
+piece_rome_tree_4: Roman Tree 4
+piece_rome_tree_5: Roman Tree 5
+piece_amphora_1: Amphora 1
+piece_amphora_2: Amphora 2
+piece_amphora_3: Amphora 3
+piece_amphora_4: Amphora 4
+piece_rome_pottery_1: Pottery 1
+piece_rome_pottery_2: Pottery 2
+piece_rome_pottery_3: Pottery 3
+piece_rome_pottery_4: Pottery 4
+piece_rome_pottery_5: Pottery 5
+piece_rome_pottery_6: Pottery 6
+piece_rome_pottery_7: Pottery 7
+piece_rome_pottery_8: Pottery 8
+piece_rome_pottery_9: Pottery 9
+piece_rome_pottery_10: Pottery 10
+piece_rome_pottery_11: Pottery 11
+piece_rome_pottery_12: Pottery 12
+piece_rome_pottery_13: Pottery 13
+piece_rome_vase_4: Roman Vase 4
+piece_rome_vase_5: Roman Vase 5
+piece_rome_vase_6: Roman Vase 6

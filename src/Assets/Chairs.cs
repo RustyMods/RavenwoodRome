@@ -7,8 +7,8 @@ public static partial class Assets
 {
     private static Dictionary<string, string> chairs = new()
     {
-        ["piece_rome_chair_1"] = "Roman Chair",
-        ["piece_rome_chair_2"] = "Roman Chair",
+        ["piece_rome_chair_1"] = "Roman Chair 1",
+        ["piece_rome_chair_2"] = "Roman Chair 2",
     };
     public static void LoadChairs()
     {

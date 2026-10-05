@@ -13,26 +13,26 @@ public static partial class Assets
         // ["piece_rome_large_temple"] = "Large Temple",
         // ["piece_rome_senate"] = "Senate",
         // ["piece_rome_small_temple"] = "Small Temple",
-        ["piece_rome_house_1"] = "Roman House",
-        ["piece_rome_house_2"] = "Roman House",
-        ["piece_rome_house_3"] = "Roman House",
-        ["piece_rome_house_4"] = "Roman House",
-        ["piece_rome_house_5"] = "Roman House",
-        ["piece_rome_house_6"] = "Roman House",
-        ["piece_rome_house_7"] = "Roman House",
-        ["piece_rome_house_8"] = "Roman House",
-        ["piece_rome_house_9"] = "Roman House",
-        ["piece_rome_house_10"] = "Roman House",
-        ["piece_rome_house_11"] = "Roman House",
-        ["piece_rome_house_12"] = "Roman House",
-        ["piece_rome_house_13"] = "Roman House",
-        ["piece_rome_house_14"] = "Roman House",
-        ["piece_rome_house_15"] = "Roman House",
-        ["piece_rome_house_16"] = "Roman House",
-        ["piece_rome_house_17"] = "Roman House",
-        ["piece_rome_house_18"] = "Roman House",
-        ["piece_rome_house_19"] = "Roman House",
-        ["piece_rome_house_20"] = "Roman House",
+        ["piece_rome_house_1"] = "Roman House 1",
+        ["piece_rome_house_2"] = "Roman House 2",
+        ["piece_rome_house_3"] = "Roman House 3",
+        ["piece_rome_house_4"] = "Roman House 4",
+        ["piece_rome_house_5"] = "Roman House 5",
+        ["piece_rome_house_6"] = "Roman House 6",
+        ["piece_rome_house_7"] = "Roman House 7",
+        ["piece_rome_house_8"] = "Roman House 8",
+        ["piece_rome_house_9"] = "Roman House 9",
+        ["piece_rome_house_10"] = "Roman House 10",
+        ["piece_rome_house_11"] = "Roman House 11",
+        ["piece_rome_house_12"] = "Roman House 12",
+        ["piece_rome_house_13"] = "Roman House 13",
+        ["piece_rome_house_14"] = "Roman House 14",
+        ["piece_rome_house_15"] = "Roman House 15",
+        ["piece_rome_house_16"] = "Roman House 16",
+        ["piece_rome_house_17"] = "Roman House 17",
+        ["piece_rome_house_18"] = "Roman House 18",
+        ["piece_rome_house_19"] = "Roman House 19",
+        ["piece_rome_house_20"] = "Roman House 20",
     };
     
     private static void LoadSenate()
@@ -41,21 +41,23 @@ public static partial class Assets
         var piece = build.Prefab.GetComponent<Piece>();
         var wnt = build.Prefab.GetComponent<WearNTear>();
         piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_stone");
-        wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
-        wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed_large");
-        wnt.m_damages = new HitData.DamageModifiers
-        {
-            m_blunt = HitData.DamageModifier.Immune,
-            m_slash = HitData.DamageModifier.Immune,
-            m_pierce = HitData.DamageModifier.Immune,
-            m_pickaxe = HitData.DamageModifier.Immune,
-            m_chop = HitData.DamageModifier.Immune,
-            m_fire = HitData.DamageModifier.Immune,
-            m_frost = HitData.DamageModifier.Immune,
-            m_lightning = HitData.DamageModifier.Immune,
-            m_poison = HitData.DamageModifier.Immune,
-            m_spirit = HitData.DamageModifier.Immune
-        };
+        // wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
+        // wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed_large");
+        // wnt.m_damages = new HitData.DamageModifiers
+        // {
+        //     m_blunt = HitData.DamageModifier.Immune,
+        //     m_slash = HitData.DamageModifier.Immune,
+        //     m_pierce = HitData.DamageModifier.Immune,
+        //     m_pickaxe = HitData.DamageModifier.Immune,
+        //     m_chop = HitData.DamageModifier.Immune,
+        //     m_fire = HitData.DamageModifier.Immune,
+        //     m_frost = HitData.DamageModifier.Immune,
+        //     m_lightning = HitData.DamageModifier.Immune,
+        //     m_poison = HitData.DamageModifier.Immune,
+        //     m_spirit = HitData.DamageModifier.Immune
+        // };
+        Object.DestroyImmediate(wnt);
+        build.Prefab.AddComponent<Highlightable>();
         build.Name.English("Senate");
         build.Category.Set("Ravenwood");
         build.Usage.Set(Piece.UsageTagFlags.Architecture);
@@ -73,21 +75,23 @@ public static partial class Assets
         var piece = build.Prefab.GetComponent<Piece>();
         var wnt = build.Prefab.GetComponent<WearNTear>();
         piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_stone");
-        wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
-        wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed_large");
-        wnt.m_damages = new HitData.DamageModifiers
-        {
-            m_blunt = HitData.DamageModifier.Immune,
-            m_slash = HitData.DamageModifier.Immune,
-            m_pierce = HitData.DamageModifier.Immune,
-            m_pickaxe = HitData.DamageModifier.Immune,
-            m_chop = HitData.DamageModifier.Immune,
-            m_fire = HitData.DamageModifier.Immune,
-            m_frost = HitData.DamageModifier.Immune,
-            m_lightning = HitData.DamageModifier.Immune,
-            m_poison = HitData.DamageModifier.Immune,
-            m_spirit = HitData.DamageModifier.Immune
-        };
+        // wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
+        // wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed_large");
+        // wnt.m_damages = new HitData.DamageModifiers
+        // {
+        //     m_blunt = HitData.DamageModifier.Immune,
+        //     m_slash = HitData.DamageModifier.Immune,
+        //     m_pierce = HitData.DamageModifier.Immune,
+        //     m_pickaxe = HitData.DamageModifier.Immune,
+        //     m_chop = HitData.DamageModifier.Immune,
+        //     m_fire = HitData.DamageModifier.Immune,
+        //     m_frost = HitData.DamageModifier.Immune,
+        //     m_lightning = HitData.DamageModifier.Immune,
+        //     m_poison = HitData.DamageModifier.Immune,
+        //     m_spirit = HitData.DamageModifier.Immune
+        // };
+        Object.DestroyImmediate(wnt);
+        build.Prefab.AddComponent<Highlightable>();
         build.Name.English("Large Temple");
         build.Category.Set("Ravenwood");
         build.Usage.Set(Piece.UsageTagFlags.Architecture);
@@ -105,21 +109,23 @@ public static partial class Assets
         var piece = build.Prefab.GetComponent<Piece>();
         var wnt = build.Prefab.GetComponent<WearNTear>();
         piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_stone");
-        wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
-        wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed_large");
-        wnt.m_damages = new HitData.DamageModifiers
-        {
-            m_blunt = HitData.DamageModifier.Immune,
-            m_slash = HitData.DamageModifier.Immune,
-            m_pierce = HitData.DamageModifier.Immune,
-            m_pickaxe = HitData.DamageModifier.Immune,
-            m_chop = HitData.DamageModifier.Immune,
-            m_fire = HitData.DamageModifier.Immune,
-            m_frost = HitData.DamageModifier.Immune,
-            m_lightning = HitData.DamageModifier.Immune,
-            m_poison = HitData.DamageModifier.Immune,
-            m_spirit = HitData.DamageModifier.Immune
-        };
+        // wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
+        // wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed_large");
+        // wnt.m_damages = new HitData.DamageModifiers
+        // {
+        //     m_blunt = HitData.DamageModifier.Immune,
+        //     m_slash = HitData.DamageModifier.Immune,
+        //     m_pierce = HitData.DamageModifier.Immune,
+        //     m_pickaxe = HitData.DamageModifier.Immune,
+        //     m_chop = HitData.DamageModifier.Immune,
+        //     m_fire = HitData.DamageModifier.Immune,
+        //     m_frost = HitData.DamageModifier.Immune,
+        //     m_lightning = HitData.DamageModifier.Immune,
+        //     m_poison = HitData.DamageModifier.Immune,
+        //     m_spirit = HitData.DamageModifier.Immune
+        // };
+        Object.DestroyImmediate(wnt);
+        build.Prefab.AddComponent<Highlightable>();
         build.Name.English("Small Temple");
         build.Category.Set("Ravenwood");
         build.Usage.Set(Piece.UsageTagFlags.Architecture);
@@ -137,21 +143,23 @@ public static partial class Assets
         var piece = build.Prefab.GetComponent<Piece>();
         var wnt = build.Prefab.GetComponent<WearNTear>();
         piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_stone");
-        wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
-        wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed_large");
-        wnt.m_damages = new HitData.DamageModifiers
-        {
-            m_blunt = HitData.DamageModifier.Immune,
-            m_slash = HitData.DamageModifier.Immune,
-            m_pierce = HitData.DamageModifier.Immune,
-            m_pickaxe = HitData.DamageModifier.Immune,
-            m_chop = HitData.DamageModifier.Immune,
-            m_fire = HitData.DamageModifier.Immune,
-            m_frost = HitData.DamageModifier.Immune,
-            m_lightning = HitData.DamageModifier.Immune,
-            m_poison = HitData.DamageModifier.Immune,
-            m_spirit = HitData.DamageModifier.Immune
-        };
+        // wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
+        // wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed_large");
+        // wnt.m_damages = new HitData.DamageModifiers
+        // {
+        //     m_blunt = HitData.DamageModifier.Immune,
+        //     m_slash = HitData.DamageModifier.Immune,
+        //     m_pierce = HitData.DamageModifier.Immune,
+        //     m_pickaxe = HitData.DamageModifier.Immune,
+        //     m_chop = HitData.DamageModifier.Immune,
+        //     m_fire = HitData.DamageModifier.Immune,
+        //     m_frost = HitData.DamageModifier.Immune,
+        //     m_lightning = HitData.DamageModifier.Immune,
+        //     m_poison = HitData.DamageModifier.Immune,
+        //     m_spirit = HitData.DamageModifier.Immune
+        // };
+        Object.DestroyImmediate(wnt);
+        build.Prefab.AddComponent<Highlightable>();
         build.Name.English("Amphitheatre");
         build.Category.Set("Ravenwood");
         build.Usage.Set(Piece.UsageTagFlags.Architecture);
@@ -168,21 +176,23 @@ public static partial class Assets
         var piece = build.Prefab.GetComponent<Piece>();
         var wnt = build.Prefab.GetComponent<WearNTear>();
         piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_stone");
-        wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
-        wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed_large");
-        wnt.m_damages = new HitData.DamageModifiers
-        {
-            m_blunt = HitData.DamageModifier.Immune,
-            m_slash = HitData.DamageModifier.Immune,
-            m_pierce = HitData.DamageModifier.Immune,
-            m_pickaxe = HitData.DamageModifier.Immune,
-            m_chop = HitData.DamageModifier.Immune,
-            m_fire = HitData.DamageModifier.Immune,
-            m_frost = HitData.DamageModifier.Immune,
-            m_lightning = HitData.DamageModifier.Immune,
-            m_poison = HitData.DamageModifier.Immune,
-            m_spirit = HitData.DamageModifier.Immune
-        };
+        // wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
+        // wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed_large");
+        // wnt.m_damages = new HitData.DamageModifiers
+        // {
+        //     m_blunt = HitData.DamageModifier.Immune,
+        //     m_slash = HitData.DamageModifier.Immune,
+        //     m_pierce = HitData.DamageModifier.Immune,
+        //     m_pickaxe = HitData.DamageModifier.Immune,
+        //     m_chop = HitData.DamageModifier.Immune,
+        //     m_fire = HitData.DamageModifier.Immune,
+        //     m_frost = HitData.DamageModifier.Immune,
+        //     m_lightning = HitData.DamageModifier.Immune,
+        //     m_poison = HitData.DamageModifier.Immune,
+        //     m_spirit = HitData.DamageModifier.Immune
+        // };
+        Object.DestroyImmediate(wnt);
+        build.Prefab.AddComponent<Highlightable>();
         build.Name.English("Triumphant Arch");
         build.Category.Set("Ravenwood");
         build.Usage.Set(Piece.UsageTagFlags.Architecture);
@@ -210,21 +220,23 @@ public static partial class Assets
             var piece = build.Prefab.GetComponent<Piece>();
             var wnt = build.Prefab.GetComponent<WearNTear>();
             piece.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_stone");
-            wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
-            wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed_large");
-            wnt.m_damages = new HitData.DamageModifiers
-            {
-                m_blunt = HitData.DamageModifier.Immune,
-                m_slash = HitData.DamageModifier.Immune,
-                m_pierce = HitData.DamageModifier.Immune,
-                m_pickaxe = HitData.DamageModifier.Immune,
-                m_chop = HitData.DamageModifier.Immune,
-                m_fire = HitData.DamageModifier.Immune,
-                m_frost = HitData.DamageModifier.Immune,
-                m_lightning = HitData.DamageModifier.Immune,
-                m_poison = HitData.DamageModifier.Immune,
-                m_spirit = HitData.DamageModifier.Immune
-            };
+            // wnt.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_HitSparks");
+            // wnt.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed_large");
+            // wnt.m_damages = new HitData.DamageModifiers
+            // {
+            //     m_blunt = HitData.DamageModifier.Immune,
+            //     m_slash = HitData.DamageModifier.Immune,
+            //     m_pierce = HitData.DamageModifier.Immune,
+            //     m_pickaxe = HitData.DamageModifier.Immune,
+            //     m_chop = HitData.DamageModifier.Immune,
+            //     m_fire = HitData.DamageModifier.Immune,
+            //     m_frost = HitData.DamageModifier.Immune,
+            //     m_lightning = HitData.DamageModifier.Immune,
+            //     m_poison = HitData.DamageModifier.Immune,
+            //     m_spirit = HitData.DamageModifier.Immune
+            // };
+            Object.DestroyImmediate(wnt);
+            build.Prefab.AddComponent<Highlightable>();
             build.Name.English(name);
             build.Category.Set("Ravenwood");
             build.Usage.Set(Piece.UsageTagFlags.Architecture);

@@ -7,12 +7,12 @@ public static partial class Assets
 {
     private static Dictionary<string, string> containers = new()
     {
-        ["piece_rome_barrel_1"] = "Roman Barrel",
-        ["piece_rome_barrel_2"] = "Roman Barrel",
-        ["piece_rome_small_crate_1"] = "Roman Crate",
-        ["piece_rome_small_crate_2"] = "Roman Crate",
-        ["piece_rome_small_crate_3"] = "Roman Crate",
-        ["piece_rome_small_crate_4"] = "Roman Crate",
+        ["piece_rome_barrel_1"] = "Roman Barrel 1",
+        ["piece_rome_barrel_2"] = "Roman Barrel 2",
+        ["piece_rome_small_crate_1"] = "Roman Crate 1",
+        ["piece_rome_small_crate_2"] = "Roman Crate 2",
+        ["piece_rome_small_crate_3"] = "Roman Crate 3",
+        ["piece_rome_small_crate_4"] = "Roman Crate 4",
     };
 
     public static void LoadContainers()

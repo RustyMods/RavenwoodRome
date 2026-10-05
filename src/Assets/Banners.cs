@@ -8,12 +8,12 @@ public static partial class Assets
 {
     private static Dictionary<string, string> banners = new()
     {
-        ["piece_banner_rome_1"] = "Roman Banner",
-        ["piece_banner_rome_2"] = "Roman Banner",
-        ["piece_banner_rome_3"] = "Roman Banner",
-        ["piece_banner_rome_4"] = "Roman Banner",
-        ["piece_banner_rome_5"] = "Roman Banner",
-        ["piece_banner_rome_6"] = "Roman Banner",
+        ["piece_banner_rome_1"] = "Roman Banner 1",
+        ["piece_banner_rome_2"] = "Roman Banner 2",
+        ["piece_banner_rome_3"] = "Roman Banner 3",
+        ["piece_banner_rome_4"] = "Roman Banner 4",
+        ["piece_banner_rome_5"] = "Roman Banner 5",
+        ["piece_banner_rome_6"] = "Roman Banner 6",
     };
     public static void LoadBanners()
     {

@@ -9,12 +9,12 @@ public static partial class Assets
 {
     private static Dictionary<string, string> doorObjs = new()
     {
-        ["piece_rome_door_1"] = "Roman Door",
-        ["piece_rome_door_2"] = "Roman Door",
-        ["piece_rome_door_3"] = "Roman Door",
-        ["piece_rome_door_4"] = "Roman Door",
-        ["piece_rome_door_5"] = "Roman Door",
-        ["piece_rome_door_6"] = "Roman Door",
+        ["piece_rome_door_1"] = "Roman Door 1",
+        ["piece_rome_door_2"] = "Roman Door 2",
+        ["piece_rome_door_3"] = "Roman Door 3",
+        ["piece_rome_door_4"] = "Roman Door 4",
+        ["piece_rome_door_5"] = "Roman Door 5",
+        ["piece_rome_door_6"] = "Roman Door 6",
     };
     private static readonly List<GameObject> doors = [];
 

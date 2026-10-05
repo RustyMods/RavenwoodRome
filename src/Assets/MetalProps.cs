@@ -11,15 +11,15 @@ public static partial class Assets
         ["piece_rome_bronze_pot"] = "Bronze Pot",
         ["piece_rome_door_knob_lion"] = "Door Knob",
         ["piece_rome_post_1"] = "Roman Post",
-        ["piece_rome_shield_1"] = "Roman Shield",
-        ["piece_rome_shield_2"] = "Roman Shield",
+        ["piece_rome_shield_1"] = "Roman Shield 1",
+        ["piece_rome_shield_2"] = "Roman Shield 2",
         ["piece_rome_spear_1"] = "Roman Spear",
         ["piece_rome_sword_1"] = "Roman Sword",
-        ["piece_rome_vase_1"] = "Metal Vase",
-        ["piece_rome_vase_2"] = "Metal Vase",
-        ["piece_rome_vase_3"] = "Metal Vase",
-        ["piece_rome_weapon_stand_2"] = "Roman Weapon Stand",
-        ["piece_rome_weapon_stand_3"] = "Roman Weapon Stand"
+        ["piece_rome_vase_1"] = "Metal Vase 1",
+        ["piece_rome_vase_2"] = "Metal Vase 2",
+        ["piece_rome_vase_3"] = "Metal Vase 3",
+        ["piece_rome_weapon_stand_2"] = "Roman Weapon Stand 1",
+        ["piece_rome_weapon_stand_3"] = "Roman Weapon Stand 2"
     };
 
     public static void LoadMetalProps()

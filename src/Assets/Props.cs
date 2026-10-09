@@ -7,15 +7,15 @@ public static partial class Assets
 {
     private static Dictionary<string, string> props = new()
     {
-        ["piece_apple_green"] = "Roman Apple",
-        ["piece_apple_red"] = "Roman Apple",
-        ["piece_rome_book_1"] = "Roman Book",
-        ["piece_rome_book_2"] = "Roman Book",
-        ["piece_rome_bread_1"] = "Roman Bread",
-        ["piece_rome_bread_2"] = "Roman Bread",
-        ["piece_rome_cloth_folded_1"] = "Roman Cloth",
-        ["piece_rome_cloth_folded_2"] = "Roman Cloth",
-        ["piece_rome_cloth_folded_3"] = "Roman Cloth",
+        ["piece_apple_green"] = "Roman Apple 1",
+        ["piece_apple_red"] = "Roman Apple 2",
+        ["piece_rome_book_1"] = "Roman Book 1",
+        ["piece_rome_book_2"] = "Roman Book 2",
+        ["piece_rome_bread_1"] = "Roman Bread 1",
+        ["piece_rome_bread_2"] = "Roman Bread 2",
+        ["piece_rome_cloth_folded_1"] = "Roman Cloth 1",
+        ["piece_rome_cloth_folded_2"] = "Roman Cloth 2",
+        ["piece_rome_cloth_folded_3"] = "Roman Cloth 3",
         ["piece_rome_hanging_cloth_1"] = "Roman Hanging Cloth",
         ["piece_rome_hanging_cloth_2"] = "Roman Hanging Cloth",
         ["piece_rome_hanging_cloth_3"] =  "Roman Hanging Cloth",
@@ -26,8 +26,8 @@ public static partial class Assets
         ["piece_rome_rope_2"] = "Roman Rope 2",
         ["piece_rome_rope_3"] = "Roman Rope 3",
         ["piece_rome_rope_4"] = "Roman Rope 4",
-        ["piece_rome_rope_5"] = "Roman Rope 5",
-        ["piece_rome_rope_6"] = "Roman Rope 6",
+        ["piece_rome_rope_5"] = "Cloth Line 1",
+        ["piece_rome_rope_6"] = "Cloth Line 2",
         ["piece_rome_scroll_1"] = "Roman Scroll 1",
         ["piece_rome_scroll_2"] = "Roman Scroll 2",
         ["piece_rome_scroll_3"] = "Roman Scroll 3",
@@ -39,29 +39,29 @@ public static partial class Assets
 
     private static Dictionary<string, string> shelves = new()
     {
-        ["piece_rome_shelf_1"] = "Roman Shelf",
-        ["piece_rome_shelf_2"] = "Roman Shelf",
-        ["piece_rome_shelf_3"] = "Roman Shelf",
-        ["piece_rome_shelf_4"] = "Roman Shelf",
-        ["piece_rome_shelf_5"] = "Roman Shelf",
+        ["piece_rome_shelf_1"] = "Roman Shelf 1",
+        ["piece_rome_shelf_2"] = "Roman Shelf 2",
+        ["piece_rome_shelf_3"] = "Roman Shelf 3",
+        ["piece_rome_shelf_4"] = "Roman Shelf 4",
+        ["piece_rome_shelf_5"] = "Roman Shelf 5",
     };
     
 
     private static Dictionary<string, string> tables = new()
     {
         ["piece_rome_desk"] = "Roman Desk",
-        ["piece_rome_table_1"] =  "Roman Table",
-        ["piece_rome_table_2"] = "Roman Table",
-        ["piece_rome_table_3"] = "Roman Table",
-        ["piece_rome_table_4"] = "Roman Table",
-        ["piece_rome_table_5"] = "Roman Table",
-        ["piece_rome_table_6"] = "Roman Table",
+        ["piece_rome_table_1"] =  "Roman Table 1",
+        ["piece_rome_table_2"] = "Roman Table 2",
+        ["piece_rome_table_3"] = "Roman Table 3",
+        ["piece_rome_table_4"] = "Roman Table 4",
+        ["piece_rome_table_5"] = "Roman Table 5",
+        ["piece_rome_table_6"] = "Roman Table 6",
     };
 
     private static Dictionary<string, string> fences = new()
     {
-        ["piece_rome_wood_fence_1"] = "Roman Fence",
-        ["piece_rome_wood_fence_2"] = "Roman Fence",
+        ["piece_rome_wood_fence_1"] = "Roman Fence 1",
+        ["piece_rome_wood_fence_2"] = "Roman Fence 2",
     };
 
     private static Dictionary<string, string> beds = new()

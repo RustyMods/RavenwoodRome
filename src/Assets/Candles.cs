@@ -60,6 +60,7 @@ public static partial class Assets
         }
         public void Start()
         {
+            if (m_nview == null || m_nview.GetZDO() == null) return;
             if (ZNetScene.instance.GetPrefab("Candle_resin") is { } candle_resin)
             {
                 var high = candle_resin.transform.Find("high").gameObject;

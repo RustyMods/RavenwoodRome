@@ -34,10 +34,16 @@ public static partial class Assets
         ["piece_rome_wall_1"] = "Roman Wall 1",
         ["piece_rome_wall_2"] = "Roman Wall 2",
         ["piece_rome_wall_3"] = "Roman Wall 3",
-        // ["piece_rome_wall_4"] = "Fresco Wall",
         ["piece_rome_wall_5"] = "Roman Wall 4",
         ["piece_rome_wall_6"] = "Large Roman Wall",
         ["piece_rome_wall_7"] = "Large Roman Wall",
+        ["piece_rome_wall_8"] = "Fresco Wall Cap",
+        ["piece_rome_wall_9"] = "Fresco Wall 2",
+    };
+
+    private static Dictionary<string, string> frescos = new()
+    {
+        // ["piece_rome_wall_4"] = "Fresco Wall",
         ["piece_rome_wall_8"] = "Fresco Wall Cap",
         ["piece_rome_wall_9"] = "Fresco Wall 2",
     };
@@ -77,6 +83,43 @@ public static partial class Assets
         var dat = new MaterialData(fresco, MaterialReplacer.ShaderType.TwoSided);
             
         MaterialReplacer.RegisterGameObjectForShaderSwap(build.Prefab, MaterialReplacer.ShaderType.PieceShader);
+        
+        foreach (var kvp in frescos)
+        {
+            var id = kvp.Key;
+            var name = kvp.Value;
+            
+            BuildPiece b = new BuildPiece("ravenwood_rome", id);
+            var p = b.Prefab.GetComponent<Piece>();
+            var w = b.Prefab.GetComponent<WearNTear>();
+            p.m_placeEffect = new EffectListRef("vfx_Place_wood_pole", "sfx_build_hammer_stone");
+            w.m_hitEffect = new EffectListRef("sfx_rock_hit", "vfx_RockHit");
+            w.m_destroyedEffect = new EffectListRef("sfx_rock_destroyed", "vfx_RockDestroyed");
+            w.m_damages = new HitData.DamageModifiers
+            {
+                m_blunt = HitData.DamageModifier.Immune,
+                m_slash = HitData.DamageModifier.Immune,
+                m_pierce = HitData.DamageModifier.Immune,
+                m_pickaxe = HitData.DamageModifier.Immune,
+                m_chop = HitData.DamageModifier.Immune,
+                m_fire = HitData.DamageModifier.Immune,
+                m_frost = HitData.DamageModifier.Immune,
+                m_lightning = HitData.DamageModifier.Immune,
+                m_poison = HitData.DamageModifier.Immune,
+                m_spirit = HitData.DamageModifier.Immune
+            };
+            
+            b.Name.English(name);
+            b.Category.Set("Ravenwood");
+            b.Usage.Set(Piece.UsageTagFlags.Architecture);
+            build.RequiredItems.Add("Stone", 25, true);
+            build.RequiredItems.Add("FineWood", 5, true);
+            build.RequiredItems.Add("Coins", 5, true);
+            b.Crafting.Set(CraftingTable.Workbench);
+            b.Snapshot();
+            
+            MaterialReplacer.RegisterGameObjectForShaderSwap(b.Prefab, MaterialReplacer.ShaderType.PieceShader);
+        }
     }
 
     private static void LoadLargePlatform()

@@ -37,15 +37,14 @@ public static partial class Assets
         ["piece_rome_wall_5"] = "Roman Wall 4",
         ["piece_rome_wall_6"] = "Large Roman Wall",
         ["piece_rome_wall_7"] = "Large Roman Wall",
-        ["piece_rome_wall_8"] = "Fresco Wall Cap",
-        ["piece_rome_wall_9"] = "Fresco Wall 2",
     };
 
     private static Dictionary<string, string> frescos = new()
     {
         // ["piece_rome_wall_4"] = "Fresco Wall",
-        ["piece_rome_wall_8"] = "Fresco Wall Cap",
+        ["piece_rome_wall_8"] = "Large Fresco Wall Cap",
         ["piece_rome_wall_9"] = "Fresco Wall 2",
+        ["piece_rome_wall_10"] = "Fresco Wall Cap",
     };
 
     private static Dictionary<string, string> pillars = new()
